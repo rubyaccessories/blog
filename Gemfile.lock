@@ -59,10 +59,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (~> 4.0.4)
+  activerecord
   rake
   shotgun
   sinatra
-  sinatra-activerecord (~> 1.7.0)
+  sinatra-activerecord
   sqlite3
   tux
