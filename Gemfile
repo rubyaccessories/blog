@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby "2.1.1"
 
 gem "sinatra"
-gem "sqlite3"
+gem 'pg'
 gem "activerecord"
 gem "sinatra-activerecord"
 gem 'rake'
