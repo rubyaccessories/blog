@@ -3,7 +3,8 @@ require "sinatra"
 require "sinatra/activerecord"
 
 # set :database, "sqlite3:///blog.db"
-db = URI.parse('postgres://user:pass@localhost/dbname')
+#db = URI.parse('postgres://user:pass@localhost/dbname')
+set :database, 'postgres:///blog.db'
 
 ActiveRecord::Base.establish_connection(
   :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
