@@ -61,7 +61,7 @@ end
 get "/posts/:id" do
   @post = Post.find(params[:id])
   @title = @post.title
-  erb :"posts/show"
+  erb :"/posts/show"
 end
  
 # Get the Edit Post form of the post with this ID.
