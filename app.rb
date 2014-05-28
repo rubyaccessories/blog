@@ -97,7 +97,7 @@ get "/contributors" do
 end
 
 # References page
-get "/references" do
-  @title = "References"
-  erb :"pages/references"
+get "/reference" do
+  @title = "Reference"
+  erb :"pages/reference"
 end

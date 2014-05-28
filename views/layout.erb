@@ -8,44 +8,41 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Standard Librarians Blogs</title>
+    <title>The Standard Librarians</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
     <link href="/css/blog-home.css" rel="stylesheet">
-
 </head>
 
 <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">The Standard Librarians Blog</a>
+      </div>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">The Standard Librarians Blog</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
- 				   <li><a href="/">Home</a></li>
-   				   <li><a href="/about">About Me</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/reference">Reference</a></li>
+          <li><a href="/contributors">Contributors</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
 
     <div class="container">
-
         <div class="row">
             <div class="col-lg-8">
                 <%= yield %>
@@ -77,7 +74,7 @@
                 <div class="well">
                     <h4>Popular Blog Categories</h4>
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-3">
                             <ul class="list-unstyled">
                                 <li><a href="#dinosaurs">Dinosaurs</a>
                                 </li>
@@ -89,7 +86,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-3">
                             <ul class="list-unstyled">
                                 <li><a href="#alien-abductions">Alien Abductions</a>
                                 </li>
