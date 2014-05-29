@@ -123,4 +123,12 @@ get "/admin" do
   @title = "Administration"
   erb :"pages/admin"
 end
- 
+
+post "/admin" do
+  enable :sessions
+  session[:permission] = 0
+    if !params.nil? && params[:password] == ENV['admin_password']
+      session[:permission] = 1
+   end
+   redirect_to :action => 'show', :id => params[:id]
+end
