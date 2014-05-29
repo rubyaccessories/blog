@@ -20,6 +20,8 @@ ActiveRecord::Base.establish_connection(
 )
 
 class Post < ActiveRecord::Base
+  validates :title, presence: true, length: { minimum: 3 }
+  validates :body, presence: true
 end
 
 helpers do
@@ -28,7 +30,7 @@ helpers do
     if @title
       "#{@title} -- The Standard Librarians Blog"
     else
-      "My Blog"
+      "The Standard Librarians Blog"
     end
   end
 
@@ -116,3 +118,9 @@ get "/reference" do
   @title = "Reference"
   erb :"pages/reference"
 end
+
+get "/admin" do 
+  @title = "Administration"
+  erb :"pages/admin"
+end
+ 
