@@ -6,9 +6,9 @@ require "sinatra/activerecord"
 #db = URI.parse('postgres://jen@localhost/activerecord_sinatra_new')
 #set :database, "postgres://jen@localhost/activerecord_sinatra_new"
 
-configure :production do
+#configure :production do
  db = URI.parse(ENV['DATABASE_URL'] || 'postgres:///localhost/mydb')
-end
+#end
 
 ActiveRecord::Base.establish_connection(
   :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
