@@ -1,17 +1,17 @@
+require 'date'
 
-                <!-- blog entry -->
-                <h1><a href="#"><%= @post.title %></a>
-                </h1>
-                <p class="lead">by Admin Librarian
-                </p>
-                <hr>
-                <p>
-                    <span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM</p>
-                <hr>
-                <!-- omiting example image.
-                <img src="http://placehold.it/900x300" class="img-responsive"> -->
-                <hr>
-                <p><%= @post.body %></p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
-                <hr>
+<!-- blog entry -->
+<h1><a href="#"><%= @post.title %></a>
+</h1>
+<p class="lead">by Admin Librarian
+</p>
+<hr>
+<p><span class="glyphicon glyphicon-time"></span> Posted on </p>
+<hr>
+<!-- omiting example image.
+<img src="http://placehold.it/900x300" class="img-responsive"> -->
+<hr>
+<p><%= @date_time %>
+<p><%= @post.body %></p>
+<a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+<hr>

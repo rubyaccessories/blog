@@ -1,6 +1,7 @@
 # app.rb
 require "sinatra"
 require "sinatra/activerecord"
+require 'date'
 
 # set :database, "sqlite3:///blog.db"
 #db = URI.parse('postgres://jen@localhost/activerecord_sinatra_new')
@@ -75,9 +76,13 @@ post "/posts" do
 end
 
 # Get the individual page of the post with this ID
+  # http://ruby-doc.org/stdlib-2.1.2/libdoc/date/rdoc/Date.html
 get "/posts/:id" do
   @post = Post.find(params[:id])
   @title = @post.title
+  #date_time should read as Monday July 5 2014  3:30 pm PST
+  d = DateTime.new()
+  @date_time = d.strftime("&A, %B %_d, %Y at %l%P%M %Z")
   erb :"/posts/show"
 end
 
