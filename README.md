@@ -8,27 +8,27 @@ The Team consists of
 * Josh Loper
 
 Coaching Company 
-  Pivotal Labs
+  Pivotal Labs: Mike McCormick
 
-Mentor 
-  Kurtis Rainbolt Greene
+Mentors 
+  Kurtis Rainbolt Greene & Konstantin Haase
 
- The blog can be found [here](http://thestandardlibrarians.herokuapp.com/).
+ The blog can be found on Heroku at (http://thestandardlibrarians.herokuapp.com/).
 ------------------------------------------
 ------------------------------------------
 
 
-# To create a category
+## To create a category
 create a <blog-category>.haml
 
  * use dashes not underscores
 
 Link text: cat
 
-%h1 Cat Problems
+&#37; h1 Cat Problems
 ------------------------------------------
 
-# To create a post
+## To create a post
 create a <blogpost-title>.mdown
 Date: June 11 2014
 Categories: cat
@@ -47,16 +47,16 @@ chase imaginary bugs. Chase imaginary bugs.  stretch chew
 
 ## Goals of The Standard Librarians
 
-### Creation of an in-browser REPL for the Ruby 2.1.2 Ruby Standard Library 
+#### Creation of an in-browser REPL for the Ruby 2.1.2 Ruby Standard Library 
 * This will be a learning tool for the community. Anyone will be able to try out the 
 elements of the Ruby Standard Library easily on the website. 
 * Making the Ruby Standard Library more accessable for beginners.
 
-### Launch a Rails site so the community can easily try out the Standard Library elements.
+#### Launch a Rails site so the community can easily try out the Standard Library elements.
 
-### Use Sinatra to blog about the progress and challenges of the creation. We are using Nesta.
+#### Use Sinatra to blog about the progress and challenges of the creation. We are using Nesta.
 
-#### This project involves Reading, Writing and Coding.
+* This project involves Reading, Writing and Coding. *
 *    Reading - understanding the Ruby Standard Library
 *    Writing - writing the guides
 *    Coding - creating the repl and the site to host it on
