@@ -1,14 +1,10 @@
-# Gemfile
-source "https://rubygems.org"
-ruby "2.1.2"
+source 'http://rubygems.org'
 
-gem "sinatra"
-gem "pg"
-gem "activerecord"
-gem "sinatra-activerecord"
-gem "rake"
+gem 'nesta', '0.10.0'
+
 
 group :development do
-  gem "shotgun"
-  gem "tux"
+  gem 'mr-sparkle'
 end
+
+# gem 'debugger'
