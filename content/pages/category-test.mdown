@@ -1,0 +1,11 @@
+Date: 11 June 2014
+Categories: cat
+Summary: Testing out the category
+Author: Jen Diamond
+
+#Category Test
+
++ This is a test
++ This is a successful test
++ This is a failing test
+

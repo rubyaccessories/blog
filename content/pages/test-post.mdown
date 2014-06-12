@@ -1,0 +1,6 @@
+Author: Joshua Loper
+Date: 1 October 2014
+
+
+#Josh's Post
+*This is a bullet point.
