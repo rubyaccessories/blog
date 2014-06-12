@@ -14,6 +14,7 @@ Mentors
   Kurtis Rainbolt Greene & Konstantin Haase
 
  The blog can be found on Heroku at (http://thestandardlibrarians.herokuapp.com/).
+ 
 ------------------------------------------
 ------------------------------------------
 
@@ -26,6 +27,7 @@ create a <blog-category>.haml
 Link text: cat
 
 &#37; h1 Cat Problems
+
 ------------------------------------------
 
 ## To create a post
