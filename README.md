@@ -2,18 +2,21 @@
 
 This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Librarians
 
-The Team consists of 
+#### The Team consists of 
+
 * Jen Diamond
 * Stephanie Betancourt
 * Josh Loper
 
-Coaching Company 
+#### Coaching Company 
+
   Pivotal Labs: Mike McCormick
 
-Mentors 
+#### Mentors 
+
   Kurtis Rainbolt Greene & Konstantin Haase
 
- The blog can be found on Heroku at (http://thestandardlibrarians.herokuapp.com/).
+#### The blog can be found on Heroku at (http://thestandardlibrarians.herokuapp.com/).
  
 ------------------------------------------
 ------------------------------------------
