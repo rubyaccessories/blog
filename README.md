@@ -1,6 +1,6 @@
 # Team TryRubyStandardLibrary
 
-This is a blog for the Rails Girls Summer of Code Volunteer Team TryRubyStandardLibrary
+This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Librarians
 
 The Team consists of 
 * Jen Diamond
