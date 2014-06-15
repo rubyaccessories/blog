@@ -2,5 +2,12 @@ Author: Jen Diamond
 Date: 11 June 2014
 
 
-#Jen's Post
-*This is a bullet point.
+# The Standard Librarian Team
+The Team consists of
+* RGSoC core Team members
+Jen Diamond & Stephanie Betancourt
+* Collaborator
+Josh Loper
+* Coaching Company
+Pivotal
+Mike McCormick
