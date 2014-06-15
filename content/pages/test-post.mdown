@@ -1,6 +1,11 @@
 Author: Joshua Loper
-Date: 1 October 2014
+Date: 1 June 2014
 
 
-#Josh's Post
-*This is a bullet point.
+#Josh Loper
+
+Josh is a collaborator on the Standarad Librarian Project.
+
+He currently works as a blah blah blah doing blah blah blah. He recently 
+coach at Los Angeles Rails Girls and attends the biweekly LA Eastside Ruby 
+Study Group which is where he met Stephanie and Jen.

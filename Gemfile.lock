@@ -3,6 +3,7 @@ GEM
   specs:
     RedCloth (4.2.9)
     ffi (1.9.3)
+    gravtastic (3.2.6)
     haml (4.0.5)
       tilt
     kgio (2.9.2)
@@ -47,5 +48,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gravtastic
   mr-sparkle
   nesta (= 0.10.0)
