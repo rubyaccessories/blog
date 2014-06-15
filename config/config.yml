@@ -2,7 +2,7 @@
 # titles.
 #
 title: "The Standard Librarians"
-subtitle: "A Blog for Standard Librarians"
+subtitle: "A blog documenting the progress of the RGSoC project by the Standard Librarians"
 
 # You should really specify your content's author when generating an
 # Atom feed. Specify at least one of name, uri or email, and Nesta will
@@ -10,11 +10,10 @@ subtitle: "A Blog for Standard Librarians"
 #
 # http://www.atomenabled.org/developers/syndication/atom-format-spec.php#element.feed
 #
-# author:
-#   name: The Standard Librarians
-#   uri: http://thestandardlibrarians.com
-#   email: thestandardlibrarians@gmail.com
-
+author:
+  name: The Standard Librarians
+#   uri: http://yourhomepage.com
+  email: thestandardlibrarians@gmail.com
 # You can stick with the default look and feel, or use a theme. Themes are
 # easy to create or install, and live inside the themes directory. You
 # can also use scripts/theme to install them.
@@ -37,7 +36,7 @@ subtitle: "A Blog for Standard Librarians"
 content: content
 
 # google_analytics_code
-#     Set this if you want Google Analytisc to track traffic on your site.
+#     Set this if you want Google Analytics to track traffic on your site.
 #     Probably best not to set a default value, but to set it in production.
 #
 #     The production settings are used if you're deploying to Heroku, so
@@ -53,7 +52,7 @@ content: content
 #     default link text. You can still override this value on a per-page
 #     basis with the 'Read more' metadata key.
 #
- read_more: "Continue reading"
+# read_more: "Continue reading"
 
 # Overriding "content" in production is recommended if you're deploying
 # Nesta to your own server (but see the deployment documentation on the

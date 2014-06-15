@@ -2,7 +2,7 @@ Author: Joshua Loper
 Date: 1 June 2014
 
 
-#Josh Loper
+# Josh Loper
 
 Josh is a collaborator on the Standarad Librarian Project.
 
