@@ -1,20 +1,63 @@
-# Marking up your pages
+# Markdown Cheat Sheet
 
-Making a new web page in Nesta is extremely easy, and the text behind
-this very page is about as simple as it gets. It's just plain text. Have
-a look at `content-demo/pages/marking-up-pages.mdown`.
+# Headers
 
-If you opened the file you may now be wondering where the links to the
-Markdown, Textile and Haml pages (that you should be able to see in your
-browser if you scroll down a bit) came from. It's quite simple really;
-they're just pages that have been assigned to the "Marking up your
-pages" category. Nesta is aware of this, and the theme you're using has
-chosen to link to them beneath these opening paragraphs of text.
+**\# h1 &nbsp; &nbsp;  \#\# h2   &nbsp; &nbsp;  \#\#\# h3  &nbsp; &nbsp; \#\#\#\# h4  &nbsp; &nbsp;  \#\#\#\#\# h5  &nbsp; &nbsp;  \#\#\#\#\#\# h6**
 
-If you look carefully, you'll also notice that the articles (i.e. pages
-with dates) that have been assigned to this page are listed in a
-separate section to plain web pages. You can customize this behaviour by
-copying a default template and tweaking a couple of lines of Ruby, but
-this isn't the place to get into that (but do [check the docs][docs]).
+# h1
 
-[docs]: http://nestacms.com/docs/design
+## h2
+
+### h3
+
+#### h4
+
+##### h5
+
+###### h6
+
+
+# Blockquote
+\> text you want in blockquote
+> Stare at ceiling. Inspect anything brought into the house. Inspect anything brought into the house intently stare at the same spot hopped up on goofballs. Hunt anything that moves. Climb leg. All of a sudden go crazy claw drapes and leave hair everywhere why must they do that or chew foot and why must they do that. All of a sudden go crazy
+
+# List
+
+\* one
+
+\+ two
+
+\- three
+
+indent four spaces
+
+* one
++ two
+- three
+
+    four
+
+        five
+
+----------------
+
+1. Ordered List 1
+2. Ordered List 2
+
+# Italic
+\*This is ITALIC\*
+
+*This is ITALIC*
+
+# Bold
+\*\*This is BOLD\*\*
+
+**This is BOLD**
+
+# Links
+
+\[Daring Fireball](https://daringfireball.net/projects/markdown/basics)
+
+[Daring Fireball](https://daringfireball.net/projects/markdown/basics)
+
+https://daringfireball.net/projects/markdown/basics
