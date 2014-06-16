@@ -1,10 +1,13 @@
 /
-marking-up-pages
-  examples/using-markdown
-  examples/using-textile
-  examples/using-haml
+cheatsheets
+  cheatsheets/markdown
+  cheatsheets/using-textile
+  cheatsheets/haml
   adding-attachments
-menu-editing
+team-bios
+  team-bios/josh-loper
+  team-bios/jen-diamond
+  team-bios/stephanie-betancourt
 publishing-a-feed
 test-post
 our-new-blog
