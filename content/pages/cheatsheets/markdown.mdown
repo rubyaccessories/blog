@@ -59,6 +59,24 @@ indent four spaces
 
 **This is BOLD**
 
+# Horizontal Rule
+
+\* \* \*
+
+\*\*\*
+
+\*\*\*\*\*
+
+\- \- \-
+
+* * *
+
+***
+
+*****
+
+- - -
+
 # Links
 
 \[Daring Fireball](https://daringfireball.net/projects/markdown/basics)

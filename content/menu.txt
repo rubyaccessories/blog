@@ -8,6 +8,7 @@ team-bios
   team-bios/josh-loper
   team-bios/jen-diamond
   team-bios/stephanie-betancourt
+  team-bios/pivotal
 publishing-a-feed
 test-post
 our-new-blog
