@@ -20,4 +20,4 @@ Author: Jen Diamond
 Missing until dinner time hate dog
 Cat ipsum dolor sit amet, intently sniff hand. Why must they do that behind the couch chase imaginary bugs. Chase imaginary bugs.  stretch chew 
 
-<img src="/attachments/screenshot.jpg" class="screenshot">
+<img src="/attachments/tabbybook.jpg" class="screenshot">
