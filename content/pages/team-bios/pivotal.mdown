@@ -1,0 +1,11 @@
+Categories: team-bios
+Summary: Markdown provides a simple way to write your copy in extremely legible plain text. The text can then be converted (by Nesta) to standards compliant HTML. Inline HTML is supported.
+
+# [Pivotal](http://pivotallabs.com/)
+Pivotal is a long time friend of Rails Girls. Here in Los Angeles the first Rails girls was held at their offices. They have hosted monthly meetups. They sent many coaches to our 2014 workshop and now they are acting as a coaching company for The Standard Librarians.
+
+## Coaching Company
+
+### Coaches
+
+**Mike McCormick** Mike was instrumental in making this opportunity a reality for our team. At the Rails Girls workshop this year he personally coached a room full of children.
