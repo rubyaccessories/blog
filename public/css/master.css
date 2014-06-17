@@ -326,9 +326,19 @@ section.articles>header>h1 {
     font-family: 'Palatino';
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: 0;
-    font-style: italic;
+    letter-spacing: .03em;
     color: #E2590E;
+}
+
+#sidebar p.team {
+    background-color: #ebebeb;
+    padding-left: 5px;
+    color: #444;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: .3px;
+    margin-bottom: 20px;
 }
 
 nav.categories ul.menu li {margin: 0;}
@@ -367,7 +377,7 @@ span.readable {
 
 p[role="contentinfo"] {text-align: center;}
 
-img {border: 3px solid #aaa;}
+img {border: 1px solid #aaa;}
 article img {
     padding: 3px;
     margin: 13px 0;

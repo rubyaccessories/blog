@@ -1,15 +1,36 @@
 #sidebar.fourCol
   .rowContainer.group.twelveCol
-    %h1 About
+  %br
+    = haml :gallery, :layout => false
     %p.about
-      This blog documents the progress of the RGSoC team The Standard Librarians as they build an in-browser REPL so everyone can easily try out the Ruby Standard Library.
-    %p
-      The team consists of two RGSoC core team members -- Jen Diamond and Stephanie Betancourt; along with collaborator Josh Loper; assisted by coaching company 
-      %a{:href=>"http://www.pivotallabs.com"} Pivotal Labs.
-      Mentors are Kurtis Rainbolt-Greene and Konstantin Haase.
-      and the Github repository here:
+      This site documents the progress of the 
       %br
-      %a{:href=>"https://github.com/thestandardlibrarians"} The Standard Librarians on GitHub.
+      Rails Girls Summer of Code team 
+      %br
+      The Standard Librarians. They are 
+      %br
+      building in-browser REPL for the 
+      %br
+      Ruby Standard Library.
+    %p.team
+      %strong THE TEAM
+      %br
+      %strong Core Team Members: 
+      %br
+      Jen Diamond and Stephanie Betancourt
+      %br 
+      %strong Collaborator: 
+      Josh Loper
+      %br
+      %strong Coaching company: 
+      %a{:href=>"http://www.pivotallabs.com"} Pivotal Labs
+      %br
+      %strong Mentors: 
+      Kurtis Rainbolt-Greene and Konstantin Haase
+      %br
+      %strong Supervisor: 
+      Carsten Zimmermann
+      
     = haml :categories, :layout => false
     = haml :links, :layout => false
-    = haml :gallery, :layout => false
+
