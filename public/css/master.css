@@ -18,6 +18,8 @@ body {
     font-family: Georgia, serif;
     font-size: 62.5%;
     background: #fff;
+    background-image:url('/images/paper.jpg'); 
+    background-repeat:repeat-x repeat-y; 
     text-rendering: optimizeLegibility;
 }
 
@@ -141,6 +143,7 @@ h2 {
 
 /*top branding*/
 h1.branding {
+    color: #333;
     font-family: Palatino Linotype;
     font-size: 70px;
     line-height: 45px;
@@ -264,14 +267,15 @@ body.article article[role=main]>h1+p {position: relative;}
     position: absolute;
     top: -60px;
     left: -35px;
-    color: #733FBC;
-    color: rgba(237,131,78, .3);
+    color: #007399;
+    color: rgba(10, 115, 153, .5);
     text-transform: lowercase;
     font-style: italic;
     font-weight: bold;
     font-family: Palatino Linotype;
     font-size: 120px;
     line-height: normal;
+text-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
 }
 
 
