@@ -20,8 +20,8 @@
     = haml :analytics, :layout => false
   %body{:class => "#{@body_class}"}
     .rowContainer.group
-      .twoCol
-      #content.fiveCol
+      .oneplusCol
+      #content.sevenCol
         = haml :header, :layout => false
         = yield
       = haml :sidebar, :layout => false

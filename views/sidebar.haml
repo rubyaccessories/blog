@@ -1,17 +1,18 @@
-#sidebar.fourCol
+#sidebar.threeCol
   .rowContainer.group.twelveCol
   %br
     = haml :gallery, :layout => false
     %p.about
       This site documents the progress of the 
-      %br
+    
       Rails Girls Summer of Code team 
-      %br
+      
       The Standard Librarians. They are 
-      %br
+    
       building in-browser REPL for the 
-      %br
+     
       Ruby Standard Library.
+    = haml :links, :layout => false
     %p.team
       %strong THE TEAM
       %br
@@ -32,5 +33,5 @@
       Carsten Zimmermann
       
     = haml :categories, :layout => false
-    = haml :links, :layout => false
+
 

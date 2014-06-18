@@ -43,6 +43,7 @@ a {text-decoration: none;}
 /*70px*/
 .oneCol {width: 6.48148148%;}
 /*160px*/
+.oneplusCol {width: 9%;}
 .twoCol {width: 14.8148148%;}
 /*250px*/
 .threeCol {width: 23.1481481%;}
@@ -184,7 +185,7 @@ h1.title span.hand  {
     visibility: hidden;
 }
 
-h1.title span.hand:after {content: '\261F';}
+h1.title span.hand:after {content: '\2606';}
 h1.title:hover span.hand {visibility: visible;}
 
 h1.title a:link {
@@ -265,7 +266,7 @@ body.article article[role=main]>h1+p {position: relative;}
 
 *.dropcap {
     position: absolute;
-    top: -60px;
+    top: -80px;
     left: -35px;
     color: #007399;
     color: rgba(10, 115, 153, .5);
@@ -325,14 +326,15 @@ section.articles>header>h1 {
 #sidebar p.about {
     font-family: 'Palatino';
     font-size: 20px;
-    line-height: 27px;
+    line-height: 23px;
     letter-spacing: .03em;
     color: #E2590E;
+    padding-top: 15px;
 }
 
 #sidebar p.team {
     background-color: #ebebeb;
-    padding-left: 5px;
+    padding: 10px;
     color: #444;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -389,8 +391,10 @@ body.page nav.breadcrumb {margin-bottom: 40px;}
 nav.breadcrumb li {
     display: inline;
     font-family: 'Trebuchet MS';
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: bold;
     letter-spacing: .5px;
+    color: #444;
 }
 nav.breadcrumb li:after {content: '\21AA';}
 nav.breadcrumb li:last-child:after {content: "";}
@@ -408,7 +412,7 @@ nav.breadcrumb li a:visited:hover{
 #media {float: right;}
 #media li {
     float: left;
-    margin: 1px 3px;
+    margin: 5px 3px;
 }
 #media li a img {border: 0;}
 
@@ -438,21 +442,6 @@ code, pre {
 }
 
 pre code {border: 0;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*width < 480*/
 @media screen and (max-width: 480px) {
@@ -560,4 +549,3 @@ pre code {border: 0;}
     section.articles article>header+p,
     body.article article[role=main]>h1+p {text-indent: 15px;}
 }
-
