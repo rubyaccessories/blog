@@ -33,5 +33,18 @@
       Carsten Zimmermann
       
     = haml :categories, :layout => false
+  :javascript
+    (function() {
+      var cx = '012446961340910551891:brxmtld2tta';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ?   'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  %gcse:search
+
 
 
