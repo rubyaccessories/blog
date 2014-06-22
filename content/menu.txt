@@ -1,14 +1,4 @@
 /
-cheatsheets
-  cheatsheets/markdown
-  cheatsheets/using-textile
-  cheatsheets/haml
-  adding-attachments
+references
 team-bios
-  team-bios/josh-loper
-  team-bios/jen-diamond
-  team-bios/stephanie-betancourt
-publishing-a-feed
-test-post
-our-new-blog
-cat
+posts-july

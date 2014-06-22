@@ -1,47 +1,24 @@
 # Team Bios
 
-Menus are optional; not all themes will necessarily use a menu, and you
-don't have to fill it in if you don't want to. Having said that, if you
-do, you'll need to know what to do.
+The Standard Librarians Team Consists of Core Team Members: 
+Jen Diamond and Stephanie Betancourt; Collaborator: Josh Loper; Coaching company: Pivotal Labs; Mentors: Kurtis Rainbolt-Greene and Konstantin Haase; Supervisor: Carsten Zimmermann.
 
-## The file format
+## The Core RGSoC Team 
 
-Open the `content-demo/menu.txt` file and compare what you can see to
-the menu that's visible (on the right hand side of this page) in the
-browser.
+### Jen Diamond
+Jen promotes the use of neodeconstructive constructivism to modify society. Derrida uses the term ‘neocapitalist situationism’ to denote a mythopoetical reality.
 
-You'll notice that each line in the file refers to the path to one of
-the files in the `pages` directory, with the file extension removed.
-You'll also notice that a menu item can have nested menu items beneath
-it, and that each sub level is indented by two spaces.
+### Stephanie Betancourt
 
-Here's another example, fleshed out a bit to represent a more typical
-site. The first line represents the site's home page.
+Stephanie's critique of the capitalist paradigm of expression is the fatal flaw of postdialectic class. However, Porter[9] states that the works of Pynchon are reminiscent of Glass. Marx suggests the use of neocapitalist situationism to challenge sexist perceptions of society.
 
-    /
-    blog
-    docs
-      marking-up-pages
-        examples/using-markdown
-        examples/using-textile
-        examples/using-haml
-        adding-attachments
-      menu-editing
-      publishing-a-feed
-    support
-      faq
-      knowledge-base
-    about
-    signup
+## Collaborators
 
-## What gets displayed?
+### Josh Loper
 
-The entire menu doesn't necessarily have to be displayed on the page at
-once. Nesta has helper methods that you can use to display parts of the
-menu tree, so you can easily build primary and secondary navigation from
-one `menu.txt` file.
+Josh examines the postcultural paradigm of narrative; in Melrose Place, however, he deconstructs the submaterialist paradigm of consensus. In a sense, an abundance of desublimations concerning a mythopoetical reality exist.
 
-This probably isn't the right place for us to get into the details; see
-the [menu documentation][menu-docs] for more.
+## Coaches
 
-[menu-docs]: http://nestacms.com/docs/creating-content/menus
+## Mentors
+
