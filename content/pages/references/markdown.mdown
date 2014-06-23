@@ -5,86 +5,97 @@ Summary: Markdown provides a simple way to write your copy in extremely legible 
 
 # Cheat Sheets
 
-# Headers
+Syntax Cheatsheet:
+Phrase Emphasis
+*italic*   **bold**
+_italic_   __bold__
+Links
+Inline:
+An [example](http://url.com/ "Title")
+Reference-style labels (titles are optional):
+An [example][id]. Then, anywhere
+else in the doc, define the link:
 
-**\# h1 &nbsp; &nbsp;  \#\# h2   &nbsp; &nbsp;  \#\#\# h3  &nbsp; &nbsp; \#\#\#\# h4  &nbsp; &nbsp;  \#\#\#\#\# h5  &nbsp; &nbsp;  \#\#\#\#\#\# h6**
+  [id]: http://example.com/  "Title"
+Images
+Inline (titles are optional):
+![alt text](/path/img.jpg "Title")
+Reference-style:
+![alt text][id]
 
-# h1
+[id]: /url/to/img.jpg "Title"
+Headers
+Setext-style:
+Header 1
+========
 
-## h2
+Header 2
+--------
+atx-style (closing #'s are optional):
+# Header 1 #
 
-### h3
+## Header 2 ##
 
-#### h4
+###### Header 6
+Lists
+Ordered, without paragraphs:
+1.  Foo
+2.  Bar
+Unordered, with paragraphs:
+*   A list item.
 
-##### h5
+    With multiple paragraphs.
 
-###### h6
+*   Bar
+You can nest them:
+*   Abacus
+    * answer
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+    3. burper
+*   Cunning
+Blockquotes
+> Email-style angle brackets
+> are used for blockquotes.
 
+> > And, they can be nested.
 
-# Blockquote
-\> text you want in blockquote
-> Stare at ceiling. Inspect anything brought into the house. Inspect anything brought into the house intently stare at the same spot hopped up on goofballs. Hunt anything that moves. Climb leg. All of a sudden go crazy claw drapes and leave hair everywhere why must they do that or chew foot and why must they do that. All of a sudden go crazy
+> #### Headers in blockquotes
+> 
+> * You can quote a list.
+> * Etc.
+Code Spans
+`<code>` spans are delimited
+by backticks.
 
-# List
+You can include literal backticks
+like `` `this` ``.
+Preformatted Code Blocks
+Indent every line of a code block by at least 4 spaces or 1 tab.
+This is a normal paragraph.
 
-\* one
-
-\+ two
-
-\- three
-
-indent four spaces
-
-* one
-+ two
-- three
-
-    four
-
-        five
-
-----------------
-
-1. Ordered List 1
-2. Ordered List 2
-
-# Italic
-\*This is ITALIC\*
-
-*This is ITALIC*
-
-# Bold
-\*\*This is BOLD\*\*
-
-**This is BOLD**
-
-# Horizontal Rule
-
-\* \* \*
-
-\*\*\*
-
-\*\*\*\*\*
-
-\- \- \-
+    This is a preformatted
+    code block.
+Horizontal Rules
+Three or more dashes or asterisks:
+---
 
 * * *
 
-***
+- - - - 
+Manual Line Breaks
+End a line with two or more spaces:
+Roses are red,   
+Violets are blue.
+Markdown Source:
 
-*****
+Filter:  Results:  
+Markdown 1.0.2b7 / SmartyPants 1.6.0b5
+Copyright © 2004–2014 John Gruber
 
-- - -
+Field Notes Brand
+Big enough for both sides of your brain. New limited edition for summer, Arts & Sciences.
 
-# Links
-
-\[Daring Fireball](https://daringfireball.net/projects/markdown/basics)
-
-[Daring Fireball](https://daringfireball.net/projects/markdown/basics)
-
-https://daringfireball.net/projects/markdown/basics
-
-# Images
-
-![alt text](/path/to/img.jpg "Th")
+Ads via The Deck.
