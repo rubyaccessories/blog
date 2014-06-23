@@ -1,24 +1,20 @@
 # Team Bios
-
-The Standard Librarians Team Consists of Core Team Members: 
-Jen Diamond and Stephanie Betancourt; Collaborator: Josh Loper; Coaching company: Pivotal Labs; Mentors: Kurtis Rainbolt-Greene and Konstantin Haase; Supervisor: Carsten Zimmermann.
-
+***
 ## The Core RGSoC Team 
-
+***
 ### Jen Diamond
 Jen promotes the use of neodeconstructive constructivism to modify society. Derrida uses the term ‘neocapitalist situationism’ to denote a mythopoetical reality.
 
 ### Stephanie Betancourt
 
 Stephanie's critique of the capitalist paradigm of expression is the fatal flaw of postdialectic class. However, Porter[9] states that the works of Pynchon are reminiscent of Glass. Marx suggests the use of neocapitalist situationism to challenge sexist perceptions of society.
-
+***
 ## Collaborators
-
+***
 ### Josh Loper
 
 Josh examines the postcultural paradigm of narrative; in Melrose Place, however, he deconstructs the submaterialist paradigm of consensus. In a sense, an abundance of desublimations concerning a mythopoetical reality exist.
-
+***
 ## Coaches
-
+***
 ## Mentors
-
