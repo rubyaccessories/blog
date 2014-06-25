@@ -1,4 +1,3 @@
-Date: 25 Dec 2010
 Categories: marking-up-pages, examples/using-markdown
 Summary: This is an article about how to make an "article" (as distinct from a "page"). This article has been summarised with this short paragraph; if you click the "Show me more" link you'll be able to read the entire article. But wait! Before you move on, you should be able to see (if your current theme supports it) that this article was published on 25 December, and was added to a couple of categories.\n\nHave a look at the top of `anatomy-of-an-article.mdown` to see how it's done&hellip;
 Read more: Show me more

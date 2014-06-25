@@ -6,6 +6,3 @@ gem 'gravtastic'
 group :development do
   gem 'mr-sparkle'
 end
-
-# gem 'debugger'
-gem 'nesta-plugin-search'
