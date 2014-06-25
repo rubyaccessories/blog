@@ -1,7 +1,11 @@
 Author: Adding a Post
 Date: 22 June 2014
 
-
 # Adding a Post
 
 Adding a post is as simple as adding a new mdown page in the content/pages section.
+Add the date author and the summary at the top of the page. As long as you put the date it will be an article.
+
+Date: 22 June 2014  
+Author: Jen Diamond  
+Summary: The team of the Standard Librarians are creating an in-browser REPL similar to TryRuby.org for the Ruby Standard Library. Read about the people who are working on it.
