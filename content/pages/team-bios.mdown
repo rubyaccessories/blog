@@ -1,13 +1,8 @@
-Date: 22 June 2014
-Author: Jen Diamond
-Summary: The team of the Standard Librarians are creating an in-browser REPL similar to TryRuby.org for the Ruby Standard Library. Read about the people who are working on it.
-
 # Team Bios
 ***
 ## The Core RGSoC Team 
 ***
 ### Jen Diamond
-
 Jen promotes the use of neodeconstructive constructivism to modify society. Derrida uses the term ‘neocapitalist situationism’ to denote a mythopoetical reality.
 
 ### Stephanie Betancourt

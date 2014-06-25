@@ -1,5 +1,3 @@
-Categories: publishing-a-feed
-
 # Publishing a feed
 
 You don't need to take any action to setup your site's Atom feed; every
