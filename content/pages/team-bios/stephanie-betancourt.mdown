@@ -3,6 +3,6 @@ Summary: Stephanie Betancourt works in nonprofit and technology in Los Angeles.
 
 # Stephanie Betancourt
 
-![Stephanie Betancourt](./attachment/stephanie.jpg "Stephanie Profile")
+![Stephanie Betancourt](../attachment/stephanie.jpg "Stephanie Profile")
 
 I'm a web professional working in the Los Angeles area, currently obsessed with vinyl and Raspberry Pi. And real pie, for that matter. See [my blog](http://www.stephaniebetancourt.com/blog) for further ramblings. Or my [GitHub](http://www.github.com/stephaniebetancourt) for my code.
