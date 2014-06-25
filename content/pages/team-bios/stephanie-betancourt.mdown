@@ -3,4 +3,4 @@ Summary: Stephanie Betancourt works in nonprofit and technology in Los Angeles.
 
 # Stephanie Betancourt
 
-I'm a web professional working in the Los Angeles area, currently obsessed with vinyl and Raspberry Pi. And real pie, for that matter. See [http://www.stephaniebetancourt.com/blog](my blog) for further ramblings. Or my [http://www.github.com/stephaniebetancourt](github) for my code.
+I'm a web professional working in the Los Angeles area, currently obsessed with vinyl and Raspberry Pi. And real pie, for that matter. See [my blog](http://www.stephaniebetancourt.com/blog) for further ramblings. Or my [GitHub](http://www.github.com/stephaniebetancourt) for my code.
