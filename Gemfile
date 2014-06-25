@@ -8,3 +8,4 @@ group :development do
 end
 
 # gem 'debugger'
+gem 'nesta-plugin-search'
