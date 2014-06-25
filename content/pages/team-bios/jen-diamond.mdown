@@ -1,8 +1,14 @@
 Categories: team-bios:1
-Summary: Jen Diamond is a core contributor to The Standard Librarian RGSoC Project. She is also very active in the Ruby & Rails community.
+Summary: Jen Diamond is a core contributor to The Standard Librarian 
+RGSoC Project. She is also very active in the Ruby & Rails community.
 
 # Core Contributor - Jen Diamond
 
-Jen Diamond is very active in the Ruby & Rails community. She organized the most recent Rails Girls workshop in Los Angeles and has been hosting a weekly Ruby & Rails study group for a year and a half. Before Rails Girls she hosted many RailsBridge events in Los Angeles.
+Jen Diamond is very active in the Ruby & Rails community. She organized
+the most recent Rails Girls workshop in Los Angeles and has been hosting
+a weekly Ruby & Rails study group for a year and a half. Before Rails
+Girls she hosted many RailsBridge events in Los Angeles.
 
-Last year Jen participated in Rails Girls Summer of Code as a sponsored team. She contributed to Bundler. You may have gotten one of the warnings she wrote when you $bundle install. :)
+Last year Jen participated in Rails Girls Summer of Code as a sponsored team.
+She contributed to Bundler. You may have gotten one of the warnings 
+she wrote when you $bundle install. :)
