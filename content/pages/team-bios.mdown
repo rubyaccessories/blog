@@ -1,25 +1,8 @@
 Date: 22 June 2014
-Author: Jen Diamond
+Link text: Team Bios
+Author: The Standard Librarians
 Summary: The team of the Standard Librarians are creating an in-browser REPL similar to TryRuby.org for the Ruby Standard Library. Read about the people who are working on it.
 
 # Team Bios
-***
-## The Core RGSoC Team 
-***
-### Jen Diamond
 
-Jen promotes the use of neodeconstructive constructivism to modify society. Derrida uses the term ‘neocapitalist situationism’ to denote a mythopoetical reality.
-
-### Stephanie Betancourt
-
-Stephanie's critique of the capitalist paradigm of expression is the fatal flaw of postdialectic class. However, Porter[9] states that the works of Pynchon are reminiscent of Glass. Marx suggests the use of neocapitalist situationism to challenge sexist perceptions of society.
-***
-## Collaborators
-***
-### Josh Loper
-
-Josh examines the postcultural paradigm of narrative; in Melrose Place, however, he deconstructs the submaterialist paradigm of consensus. In a sense, an abundance of desublimations concerning a mythopoetical reality exist.
-***
-## Coaches
-***
-## Mentors
+The team of the Standard Librarians are creating an in-browser REPL similar to TryRuby.org for testing out the Ruby Standard Library. This project is part of Rails Girls Summer of Code 2014.

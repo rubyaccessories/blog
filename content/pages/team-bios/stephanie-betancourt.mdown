@@ -1,8 +1,10 @@
-Categories: team-bios
-Summary: Stephanie Betancourt works in nonprofit and technology in Los Angeles. 
+Categories: team-bios:1
+Summary: Stephanie Betancourt is a core contributor to The Standard Librarian RGSoC Project. She is also the Director of Information Technology at California Association of Independent Schools.
 
-# Stephanie Betancourt
+#  Core Contributor - Stephanie Betancourt
+
+Stephanie Betancourt is the Director of Information Technology at California Association of Independent Schools.
 
 ![Stephanie Betancourt](http://thestandardlibrarians.herokuapp.com/attachments/stephanie.jpg "Stephanie Profile")
 
-I'm a web professional working in the Los Angeles area, currently obsessed with vinyl and Raspberry Pi. And real pie, for that matter. See [my blog](http://www.stephaniebetancourt.com/blog) for further ramblings. Or my [GitHub](http://www.github.com/stephaniebetancourt) for my code.
+Stephanie is a web professional working in the Los Angeles area. She is currently obsessed with vinyl and Raspberry Pi and real pie, for that matter. [Checkout her blog.](http://www.stephaniebetancourt.com/blog) for further ramblings. [And her GitHub.](http://www.github.com/stephaniebetancourt)
