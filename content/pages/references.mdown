@@ -1,16 +1,22 @@
+Author: The Standard Librarians
+Categories: references, HAML, Markdown, Terminal Commands, VIM
+Description: HAML, Markdown, Terminal Commands, VIM
+
 #References
 
-##Cheat Sheets
-
+***
 ###[HAML][haml]
-Haml is an alternative syntax for HTML that has gained a large amount of traction in the Ruby community. Though not to everybody's taste, Haml is (primarily due to support for other markup languages) an ideal language for writing rich pages in Nesta.
-
+Haml is an alternative syntax for HTML that has gained a large
+amount of traction in the Ruby community. Though not to everybody's
+taste, Haml is (primarily due to support for other markup languages)
+an ideal language for writing rich pages in Nesta.
+***
 ###[Markdown][markdown]
 Markdown provides a simple way to write your copy in extremely legible plain text. The text can then be converted (by Nesta) to standards compliant HTML. Inline HTML is supported.
-
+***
 ###[Terminal Commands][terminal]
 The terminal is an interface in which you can type and execute text based commands.
-
+***
 ###[VIM][vim]
 Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.
 
@@ -20,3 +26,4 @@ Vim is often called a "programmer's editor," and so useful for programming that 
 [markdown]: http://daringfireball.net/projects/markdown/dingus
 [terminal]: http://files.fosswire.com/2007/08/fwunixref.pdf
 [vim]: http://thestandardlibrarians.herokuapp.com/refences/vim.html
+***

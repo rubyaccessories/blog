@@ -1,10 +1,8 @@
 Categories: team-bios
-Summary: Markdown provides a simple way to write your copy in extremely legible plain text. The text can then be converted (by Nesta) to standards compliant HTML. Inline HTML is supported.
+Summary: Pivotal Labs Los Angeles is a long time friend of Rails Girls. Here in Los Angeles the first Rails girls was held at their offices. They have hosted monthly meetups. They sent many coaches to our 2014 workshop and now they are acting as a coaching company for The Standard Librarians.
 
-# [Pivotal](http://pivotallabs.com/)
-Pivotal is a long time friend of Rails Girls. Here in Los Angeles the first Rails girls was held at their offices. They have hosted monthly meetups. They sent many coaches to our 2014 workshop and now they are acting as a coaching company for The Standard Librarians.
-
-## Coaching Company
+# Coaching Company - Pivotal Labs
+[Pivotal](http://pivotallabs.com/) is a long time friend of Rails Girls. Here in Los Angeles the first Rails girls was held at their offices. They have hosted monthly meetups. They sent many coaches to our 2014 workshop and now they are acting as a coaching company for The Standard Librarians.
 
 ### Coaches
 
