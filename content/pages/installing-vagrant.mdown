@@ -7,7 +7,7 @@ Wale, Jen, and Stephanie met with Pat Maddox on Sunday at Silverlake Coffeehouse
 
 <img style="float: right" src="/attachments/vagrantlogo.png" />
 
-Jen and Josh both use Linux, Steph is on OS X, and Wale is on Windows. We're going to use Vagrant so we can all develop in the same environment.
+Jen and Josh both use Linux, Stephanie is on OS X, and Wale is on Windows. We're going to use Vagrant so we can all develop in the same environment.
 
 This is great because we all can be working on the same development environment as we work on our project over the summer.
 
