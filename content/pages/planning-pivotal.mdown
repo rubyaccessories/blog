@@ -1,0 +1,21 @@
+Date: 25 June 2014
+Author: Stephanie Betancourt
+
+# Planning meeting at Pivotal Labs
+
+Wale, Jen, Josh and Stephanie met with Mike McCormick and some of the other Pivots for an orientation session. 
+
+![Wale, Jen and Pat](/attachments/teampic.jpg)
+#### Jen, Steph, Wale, Pat
+=============
+
+We met some of the Pivot coaches we'll be working with over the summer. They let us know how best to plan for our inception session on Monday, June 30.
+
+We discussed best templating formats, and the values of haml versus slim versus erb. The consensus was to use whichever option we are most familiar with and will move us forward the fastest. 
+
+The Pivot coaches tasked us with figuring out the first five Ruby libraries we'd like to start with. We chose CSV, JSON, Logger, BigDecimal, and CMath.
+
+
+
+![Jen and Steph at Pivotal](/attachments/jensteph.jpg "Jen and Steph at Pivotal")
+#### Jen and Steph at Pivotal
