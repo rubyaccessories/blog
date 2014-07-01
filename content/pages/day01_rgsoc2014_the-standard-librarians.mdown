@@ -3,7 +3,7 @@ Author: Jen Diamond
 
 # RGSoC 2014 - Day 1 - Inception Part 1
 
-## Today was our first day of RGSoC and it was amazing!
+Today was our first day of RGSoC and it was amazing!
 
 Our first day working with Pivotal. We started the first phase of our
 inception. An inception is a really intense planning meeting where you

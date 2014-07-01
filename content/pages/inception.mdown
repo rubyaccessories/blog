@@ -40,15 +40,16 @@
 
 # Anti Goals
 
-Leave someone behind
-Sacrificing learning for velocity
-soloing :(
-silently suffering (our own ignorance)
++ Leave someone behind
++ Sacrificing learning for velocity
++ Soloing :(
++ Silently suffering (our own ignorance)
 
-Dimensions
-Level of expertise / place in learning journey
-Time available
-Study vs. problem solving vs. discovery
+# Dimensions
+
++ Level of expertise / place in learning journey
++ Time available
++ Study vs. problem solving vs. discovery
 
 # Profiles
 
