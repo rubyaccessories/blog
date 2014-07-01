@@ -1,0 +1,93 @@
+# Inception
+
+**In attendance**
+
+- Jen Diamond | Stephanie Betancourt | Josh Loper | Wale Oniyide
+- Pat Maddox | Mike McCormick | John Ryan | Ryan Moran | Dave Belloti | Mike Bonifer
+
+* * *
+
+# Goals
+
+- Build a learning tool, making the standard library more digestable
++ &nbsp; &nbsp;100% coverage not necessary
++ &nbsp; &nbsp;for some, through a narrative / journey
++ &nbsp; &nbsp;or others, pointers to supplemental materials
+
++ Something for everyone
++ &nbsp; &nbsp;easy to learn from (progressive difficulty)
++ &nbsp; &nbsp;easy to use
+
++  Rewards that foster engagement
++  Track your progress
++  Learn Ruby more deeply
+
++  Develop skills enough to land a job @ Pivotal
++ &nbsp; &nbsp;confident in foundational XP practices
++ &nbsp; &nbsp;testing - sustainable pace
+
++  Create a working environment can contribute and learn
++  Get user feedback so that we are confident that people will benefit from our learning tool
++  Meet our Rails Girls obligations
++ &nbsp; &nbsp;Daily blog
++ &nbsp; &nbsp;Present at a conference
++ &nbsp; &nbsp;Do RGSoC post in September
++  Be able to pass the torch
++   Feel like I am a part of "the tribe"
++  Make this project attractive for open source contribution
+
+* * *
+
+# Anti Goals
+
+Leave someone behind
+Sacrificing learning for velocity
+soloing :(
+silently suffering (our own ignorance)
+
+Dimensions
+Level of expertise / place in learning journey
+Time available
+Study vs. problem solving vs. discovery
+
+# Profiles
+
+* * *
+
+**Kris**
+
++ I know some Ruby (1st programming language)
++ I am learning how to program
++ I know basic types / data structures
++ I am facile with online learning
++ I spend at least one hour a week on learning
++ In a user group; learning together
++ I have the potential helping someone else learn
++ Goal directed learning
++ I find the RDocs confusing
+++ I don't have enough context to know what is important
++ I would come to this site to do practice drills, work on solving a particular problem
++ I want to discover something new about Ruby
++ I want to be a Rubyist (learn the "Ruby Way")
++ I'm seeking guidance / direction and encouragement
++ I have some troubleshooting techniques
+
+* * *
+
+**Malcolm**
+
++ I am now convinced I am learning Ruby
++ I have a developing mental model of basic Ruby Programming
++ I have written a few guided programs
++ StackOverflow based programming/troubleshooting
++ I am not sure what most exceptions mean
+
+* * *
+
+**Emerald**
+
++ I just finished an introduction (e.g.- Rails Girls)
++ I am looking for support for my learning
++ I want to discover what Ruby's potential is
++ I don't know any jargon
++ I need to be encouraged immediately (quick wins)
