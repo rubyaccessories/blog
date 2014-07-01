@@ -3,24 +3,24 @@ Author: Stephanie Betancourt
 
 # Installing Vagrant Virtual Machine
 
-Wale, Jen, and Stephanie met with Pat Maddox on Sunday at Silverlake Coffeehouse. It was an awesome session and we were able to deploy a virtual machine.
+Wale, Jen, and Stephanie met with Pat Maddox on Sunday at Silverlake 
+Coffeehouse. It was an awesome session and we were able to deploy a virtual 
+machine.
 
 <img style="float: right" src="/attachments/vagrantlogo.png" />
 
-Jen and Josh both use Linux, Stephanie is on OS X, and Wale is on Windows. We're going to use Vagrant so we can all develop in the same environment.
+Jen and Josh both use Linux, Stephanie is on OS X, and Wale is on Windows. 
+We're going to use Vagrant so we can all develop in the same environment.
 
-This is great because we all can be working on the same development environment as we work on our project over the summer.
+This is great because we all can be working on the same development 
+environment as we work on our project over the summer.
 
-Today was our first mob programming session, a technique we're going to be using for the entirety of our project. Mob programming is a concept developed by Woody Zuille. We have multiple levels and environments so mob programming will allow us to all improve our skills together and ensure that no one gets left behind. 
+Today was our first mob programming session, a technique we're going to 
+be using for the entirety of our project. Mob programming is a concept 
+developed by Woody Zuille. We have multiple levels and environments so 
+mob programming will allow us to all improve our skills together and ensure 
+that no one gets left behind.
 
 We made a [GitHub repo](https://github.com/TheStandardLibrarians/railsgirlsvagrant) for our environment, along with a README detailing the steps required to set it up.
 
 ![Wale, Jen and Pat](/attachments/vagrantpic1.jpg)
-### Wale, Jen, and Pat
-=============
-![Wale, Jen and Pat](/attachments/vagrantpic2.jpg)
-### Jen, Pat, Wale, and Stephanie
-=============
-![Wale, Jen and Pat](/attachments/vagrantpic3.jpg)
-### A delicious sandwich with extemely fancy avocado
-=============
