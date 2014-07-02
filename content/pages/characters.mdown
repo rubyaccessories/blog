@@ -1,0 +1,65 @@
+# CHARACTERS & THEIR ASSOCIATED LIBRARIES
+
+## LIBRARIES
+
+MATH | ENCODING COMPRESSION | HTTP PROTOCOL | TIME / DATE | DATABASE |
+EXCEPTIONS / DEBUGGING / TESTING | READ & WRITE - STRING / FILE IO OBJECTS |
+DSL | GUI | COMMAND LINE TOOLS | PATTERNS | THREADS & SERVER PROCESSES |
+CORE RUBY TOOLS | PARSERS
+
+* * *
+
+## ENCODING COMPRESSION
+**Mr. Chips** - The main character. He lands on Earth in his spaceship and starts meeting the characters and has adventures like Mork. He befriends a cat, Cuddy, who has strayed off from the Army of Cats. Cuddy becomes his pet. Mr. Chips has escaped (Logan’s Run style) from his planet because a mature chip is food there.
+
+* * *
+
+## DSL
+**The Angry Rabbit** - he is a shystery liar who is only out for himself He steals things like the fireworks for the party, the skunk’s watches, the bear’s bikes.
+
+* * *
+
+## PARSERS
+**The Skunk on Cheese** - he only concentrates on one thing - the cheese. He is dedicated to the cheese
+
+* * *
+
+## GUI
+**Snowy the Star F\*cker** - gloms on to whoever he thinks is cool. He is gullible and will do whatever you want him to do without questioning therefore he is often the scapegoat of the Angry Rabbit. 420 Error
+
+* * *
+
+## MATH
+**The Horse Society** - Just like Swift’s Houyhnhnms the horse army society is based upon reason, and only upon reason, and therefore the horses practice eugenics based on their analyses of benefit and cost. They have no religion and their sole morality is the defence of reason, and so they are not particularly moved by pity or a belief in the intrinsic value of life. 
+The Houyhnhnms embody both the good and the bad side of reason. They live in a large cave.
+(http://youtu.be/J7fTGpMoyrI)    (http://horsesenseandcents.com/wp-content/uploads/2013/09/mean-horse.jpg)
+
+* * *
+
+## DATABASE
+**The Monkeys** - distasteful materialism similar to Swift’s Yahoos They live in a house that they decorate with pretty stones. They have a penchant for gems.
+
+* * *
+
+## CORE RUBY TOOLS
+**The Turtle** - God The Turtle holds up the world and swims through space. The only ones who know he really exist are the birds, the cats and Mr. Chips. (https://docs.google.com/document/d/1jc4GfLgd_KIr9Sy9JJ8sl_C8AsdbfmS15mHIRjva5ow/edit)
+
+* * *
+## HTTP PROTOCOL & READ & WRITE - STRING / FILE IO OBJECTS
+**The Army of Cats** - There are 4 cats who stand on the turtle’s back and support the Earth. The army of cats are descendants of these 4 cats. They are named after the file and io libraries. They are the most helpful to Mr. Chips and they are the smartest creature around besides the turtle.
+
+* * *
+
+## DEBUGGING / TESTING
+**The Bear Family** - There is a family of 3 bears. They live in an adjacent cave to the horses.
+They are the embodiment of the superlative.
+
+* * *
+
+## THREADS & SERVER PROCESSES
+**Froggy** - He is the most positive and cheerful creature on the planet. He lives in the trees. There are thousands of frogs they look exactly alike. There could be the idea that there is just one frog and then it is revealed that there are thousands.
+
+* * *
+
+## PATTERNS
+**The Army of Birds** - They swoop and dive at most of the animals, steal their food and crap on them. They are friendly with the Bears and the frogs and do errands for them. They are the most populous of all the animal and have the gift of vision of the future because they can see the big picture from above.
