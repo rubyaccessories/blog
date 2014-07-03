@@ -5,18 +5,17 @@ Author: Joshua Loper
 
 Wale, Jen, Josh and Stephanie met with Mike McCormick, Zach, and Ryan for a second installment of the inception.
 
-![Jen, Wale, and Mike](/attachments/inceptionday2.jpg)
-#### Jen, Wale, and Mike
+![Wale, Jen, and Mike](/attachments/inceptionday2.jpg)
+#### Wale, Jen, and Mike
 =============
 
-We met for a second day of inception and worked on building "stories".  "Stories" are somewhat similar to features which are considered an achievement for the user.  We made many cards piecing everything together step by step in an achievable amount as possible.  Then we discussed what kind of meetings we will be having after that.  There is a particular order of meetings, which go like so:
-1. Inception
-2. Weekly Planning Meeting (sometimes on Monday)
-3. Stand up every day.  This is very short and we explain what we did the day before.
-4. Weekly retrospective.  We talk about the positive, neutral, and negative aspects of our work whether they are personal or about the team's project as a whole.
-5. Outception.  We discuss what we have accomplished, and other risks and goals we will have for the future.
-
-After we finished creating at least 2 weeks of stories, we did a retrospective and discussed points which we were happy, neutral, or not happy about.  I said I was positive about our team and neutral about being tired.
-
-=============
- 
+We met for a second day of inception and worked on building "stories".  "Stories" are somewhat similar to features which are considered an achievement for the user.  We made many cards piecing everything together step by step in an achievable amount as possible.  Then we discussed what kind of meetings we will be having after that.  There is a particular order of meetings, which go like so:  
+1. Inception  
+2. Weekly Planning Meeting (sometimes on Monday)  
+3. Stand up every day.  This is very short and we explain what we did the day before.  
+4. Weekly retrospective.  We talk about the positive, neutral, and negative aspects of our work whether they are personal or about the team's project as a whole.  
+5. Outception.  We discuss what we have accomplished, and other risks and goals we will have for the future.  
+  
+After we finished creating at least 2 weeks of stories, we did a retrospective and discussed points which we were happy, neutral, or not happy about.  I said I was positive about our team and neutral about being tired.  
+  
+=============  
