@@ -7,14 +7,16 @@ This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Li
 * Jen Diamond
 * Stephanie Betancourt
 * Josh Loper
+* Omowale Oniyide
 
 #### Coaching Company 
 
-  Pivotal Labs: Mike McCormick
-
+  **Pivotal Labs:**  
+  Mike McCormick, John Ryan, Ryan Moran, Dave Bellotti, Zachary Gershman
+  
 #### Mentors 
 
-  Kurtis Rainbolt Greene & Konstantin Haase
+  Pat Maddox
 
 #### The blog can be found on Heroku at (http://thestandardlibrarians.herokuapp.com/).
  
