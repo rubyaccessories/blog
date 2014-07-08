@@ -1,5 +1,5 @@
 Date: 1 July 2014
-Author: Jen Diamond & Stephanie Betancourt
+Author: Stephanie Betancourt
 
 # Day 2 - One Method, One Library
 
@@ -27,4 +27,4 @@ Using a person and a gender as a metaphor, Mike explained that for class Person,
 	end
 	
 
-![Wale, Jen, and Mike](/attachments/010714-person-class-notes.jpg)
+![Person Class](/attachments/010714-person-class-notes.jpg)
