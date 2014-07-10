@@ -23,22 +23,21 @@ This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Li
 
 ## Goals of The Standard Librarians
 
-#### Creation of an in-browser REPL for the Ruby 2.1.2 Ruby Standard Library 
-* This will be a learning tool for the community. Anyone will be able to try out the 
-elements of the Ruby Standard Library easily on the website. 
-* Making the Ruby Standard Library more accessable for beginners.
+#### Launch a Rails site so the community can easily try out some of the elements of the Ruby Standard Library.
 
-#### Launch a Rails site so the community can easily try out the Standard Library elements.
+* Create of an in-browser REPL for the Ruby 2.1.2 Ruby Standard Library like TryRuby.org.
+* Create an open source learning tool for the community. 
+* Making the Ruby Standard Library more accessable for beginners.
 
 #### Use Sinatra to blog about the progress and challenges of the creation. We are using Nesta.
 
 This project involves understanding the Ruby Standard Library, writing guides explaining it, 
 creating a repl and the Rails site to host it on.
 
- 
 ------------------------------------------
 ------------------------------------------
 
+# Posting to the Blog
 
 ## To create a category in the Sidebar
 
