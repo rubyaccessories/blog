@@ -8,6 +8,7 @@ This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Li
 * Stephanie Betancourt
 * Josh Loper
 * Omowale Oniyide
+* Jalil Mohammed
 
 #### Coaching Company 
 
@@ -29,14 +30,19 @@ create a <blog-category>.haml
 
  * use dashes not underscores
 
-Link text: cat
+    Link text: cat
 
-&#37; h1 Cat Problems
+    &#37; h1 Cat Problems
+
+Add the name of your file to the menu.txt file. The name you put in the menu.txt file has to match 
+
 
 ------------------------------------------
 
 ## To create a post
-create a <blogpost-title>.mdown
+
+1. Create a <blogpost-title>.mdown Use the format  in the 
+2. 
 Date: June 11 2014
 Categories: cat
 Summary: cat stuff
@@ -63,8 +69,9 @@ elements of the Ruby Standard Library easily on the website.
 
 #### Use Sinatra to blog about the progress and challenges of the creation. We are using Nesta.
 
-* This project involves Reading, Writing and Coding. *
-*    Reading - understanding the Ruby Standard Library
-*    Writing - writing the guides
-*    Coding - creating the repl and the site to host it on
+------------------------------------------
+------------------------------------------
+
+This project involves understanding the Ruby Standard Library, writing the guides, 
+creating a repl and the Rails site to host it on.
 
