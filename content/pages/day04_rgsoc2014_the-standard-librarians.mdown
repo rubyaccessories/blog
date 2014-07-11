@@ -1,5 +1,5 @@
-Date: 7 July 2014
-Author: Jen Diamond & Stephanie Betancourt
+Date: 8 July 2014
+Author: Stephanie Betancourt
 
 # Day 4 - Planning and Pointing Stories
 

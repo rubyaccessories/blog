@@ -1,0 +1,23 @@
+Date: 8 July 2014
+Author: Jen Diamond
+
+# Day 5 - Vagrant Vundle NerdTree
+
+We cloned **ripl** which is an open source Ruby gem we are using to create 
+our REPL (read, evaluate, print, loop). We upgraded the Ruby version to 
+2.1.2 and ran it's specs, all 54 passed so we are going to proceed 
+forward using the most recent version of Ruby for our REPL. We upgraded 
+our Ruby version in our vagrant instance to match.
+
+**We had several more things to add to our vagrant**
+
++ We added the .vimrc that the Pivotal devs use
++ We used vundle to gather all the dependencies
++ We installed NERDTree
++ We installed Cabybara
++ We installed [git-pair](https://github.com/pivotal/git_scripts)
+which is a gem created by Pivotal which lets us have multiple contributors 
+on our commit messages to Github. Also, when we add our Pivotal Tracker id. 
+number for our story on the commit message; it pushes the commit message 
+to our Pivotal Tracker story from Github.
++ We added our ssh key for GitHub

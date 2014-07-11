@@ -3,12 +3,13 @@ Author: Stephanie Betancourt
 
 # Day 2 - One Method, One Library
 
-Today Jen, Wale and Stephanie worked with Mike McCormick. We spent some time brainstorming about which library to work with first.
+Today Jen, Wale and Stephanie worked with Mike McCormick. We spent some 
+time brainstorming about which library to work with first.
 
-We decided to go with net/http. Users can get URI info with net/http using the 'get' method. There are both a class method and an instance method.
+We decided to go with net/http. Users can get URI info with net/http using 
+the 'get' method. There is a class method and an instance method.
 
-Using a person and a gender as a metaphor, Mike explained that for class Person, there exists a gender argument. Each person instance has a gender. We worked within that idea and explored the difference between a class variable and an instance variable.
-
+Using a person and a gender as a metaphor, We created a Person class and defined a gender method. Each person instance has a gender which we made flexible. We worked within that idea and explored the difference between class methods and an instance methods.
     class Person
 
       def gender
