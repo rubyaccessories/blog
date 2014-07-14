@@ -27,3 +27,6 @@ Vim is often called a "programmer's editor," and so useful for programming that 
 [terminal]: http://files.fosswire.com/2007/08/fwunixref.pdf
 [vim]: http://thestandardlibrarians.herokuapp.com/refences/vim.html
 ***
+###[Writing a good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+[This is also a good reference about commit messages.](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
+***
