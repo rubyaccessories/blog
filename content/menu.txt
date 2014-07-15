@@ -4,3 +4,4 @@ references
 team-bios
 inception
 characters
+rgsoc-teams

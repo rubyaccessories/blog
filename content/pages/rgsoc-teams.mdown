@@ -1,3 +1,9 @@
+Author: The Standard Librarians
+Categories: rails girls summer of code 2014
+Description: rgsoc websites
+
+# 2014 Rails Girls Summer of Code Teams
+
 [Team Aria](http://ariateam.tumblr.com/)
 
 [Team BrowserSpree](http://browserspree.tumblr.com/)
