@@ -35,6 +35,9 @@ on our commit messages to Github. Also, when we add our Pivotal Tracker id.
 number for our story on the commit message; it pushes the commit message 
 to our Pivotal Tracker story from Github.  
 +    * We added our ssh key for GitHub
+
+![Jen and Josh hard at work](/attachments/7-9_jenandjosh.jpg)
+
 =============
 **The most awesome things of the night:**
 
@@ -46,3 +49,5 @@ to our Pivotal Tracker story from Github.
 command. You have to be in the esc mode.
 
 + Once the ssh key was added Github; it pushes our commit messages to Pivotal Tracker.
+
+![Treats!](/attachments/7-9_treats.jpg)
