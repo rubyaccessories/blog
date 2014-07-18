@@ -4,6 +4,7 @@ Author: Josh Loper
 # Meeting the UX Designer, getting RIPL to run.  Riplception.
 
 Josh, Stephanie, Jen, Wale and Rob met with John and Mike, as well as Abby to work on our open source project.
-<img style="float: right" src="/attachments/riplception.jpg" />
+![Steph & Wale celebrating](/attachments/riplception.jpg)
+#### Steph & Wale celebrating
 
 Met with Abby Sturges the UX Designer.  We need to design a simple wireframe on every story, with the bare essentials and make sure we have all of the bones in our story.  There are two stages to the design, one is the black and white wireframe and then the second is a more thorough design which actually involves the colors and specific details.  There are levels of fidelity in which we can develop the application.  From just a simple outline, to more and more detail.  Our first attempt we had to switch to the latest version of ruby with the command "rvm use 2.1.2".  We installed rvm and gem install ripl.  Ripl supports running on Ruby 2.1.2.  Ripl has 'net/http' already required for some reason.
