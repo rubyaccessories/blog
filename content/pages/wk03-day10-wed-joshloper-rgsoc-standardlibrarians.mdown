@@ -1,0 +1,15 @@
+Date: 16 July 2014
+Author: Josh Loper
+
+# UX Design, Running the RIPL,  Riplception
+
+Josh, Stephanie, Jen, Wale and Rob met with Pivotal's John Ryan, Mike McCormick and Abby Sturges to work on our open source project.
+![The team reviewing our stories in Pivotal Tracker with Abby Sturges and John Ryan ](/attachments/riplception.jpg)
+#### The team reviewing our stories in Pivotal Tracker with Abby Sturges and John Ryan
+
+Today we met with Abby Sturges the UX Designer at Pivotal Labs Los Angeles.  She said that we need to design a simple wireframe for every story in our Pivotal Tracker. The wireframe should have the bare essentials of the story and as we review the story we need to make sure that we have all of the bones in our story.  
+There are two stages to the design, one is the black and white wireframe and then the second is a more thorough design which actually involves the colors and specific details.  There are levels of fidelity in which we can develop the application.  From just a simple outline, to more and more detail. She said when we create a wireframe with text we want to be as acurate with that text and everything as we can be.
+
+## The continuation of the RIPL installation
+
+In our first attempt to install the ripl gem today we had to switch our vagrant box to the latest version of Ruby with the command `$ rvm use 2.1.2` then we ran `$ gem install ripl` and ran `$ ripl` which is the command that runs ripl just like you would run irb by typing `$ irb` in the commandline.  Hooray, Ripl ran! That means its supports running on Ruby 2.1.2 which is what we were hoping for. We ran a few commands from the ruby standard library to make sure it would return what we expected. For the most part it did except that when we ran a net/http request and forgot to run `$ require net/http`. The command parsed which made us conclude that RIPL already has the net/http library required. We will investigate this further by looking through the RIPL source code.We are all quite elated and relieved that the RIPL is running.
