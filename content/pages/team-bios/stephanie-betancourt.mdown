@@ -1,16 +1,31 @@
 Categories: team-bios:1
-Summary: Stephanie Betancourt is a core contributor to The Standard Librarian
+Summary: Stephanie Betancourt is a core contributor to The Standard Librarians
 RGSoC Project. She is also the Director of Information Technology at
 California Association of Independent Schools.
 
+<img style="float: right" src="/attachments/stephaniepic.jpg" />
+
+
 #  Core Contributor - Stephanie Betancourt
+
 
 Stephanie Betancourt is the Director of Information Technology at California 
 Association of Independent Schools.
 
-![Stephanie Betancourt](http://thestandardlibrarians.herokuapp.com/attachments/stephanie.jpg "Stephanie Profile")
+[Stephanie](http://www.stephaniebetancourt.com) is on the core team of the Standard Librarians, a RailsGirls Summer of Code open source project. She loves [reading books](https://www.goodreads.com/user/show/7208734-stephanie), writing code, traveling the world, and eating pie. 
 
-Stephanie is a web professional working in the Los Angeles area. She is
-currently obsessed with vinyl and Raspberry Pi and real pie, for that matter.
-[Checkout her blog.](http://blog.stephaniebetancourt.com/) for further ramblings.
-[And her GitHub.](http://www.github.com/stephaniebetancourt)
+Stephanie attended Railsbridge in 2012, and began learning Rails. Over the last five years, she has built many front-end sites. She coached RailsGirls LA this spring. Her interests include leveraging webapps to make sense of data for nonprofits and education.
+
++ [GitHub](http://www.github.com/stephaniebetancourt)  &#149; [Twitter](https://twitter.com/stephanieblack) &#149; [Linkedin](https://www.linkedin.com/in/stephaniebetancourt)
+
+<a class="twitter-timeline" href="https://twitter.com/stephanieblack" data-widget-id="490198892151992320">Tweets by @stephanieblack</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script
+  data-name="stephaniebetancourt"
+  data-modules="base,details,stats,eventsStatis,orgs"
+  data-reposNum="3"
+  src="http://nodejs.in/octocard/bin/octocard.js">
+</script>
+
+
