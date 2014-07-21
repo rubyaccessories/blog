@@ -1,24 +1,10 @@
-* use dashes not underscores
+Goals of The Standard Librarians
 
-# To create a category
-create a <blog-category>.haml
+Launch a Rails site so the community can easily try out some of the elements of the Ruby Standard Library.
 
-Link text: cat
+Create of an in-browser REPL for the Ruby 2.1.2 Ruby Standard Library like TryRuby.org.
+Create an open source learning tool for the community.
+Making the Ruby Standard Library more accessable for beginners.
+Use Sinatra to blog about the progress and challenges of the creation. We are using Nesta.
 
-%h1 Cat Problems
-------------------------------------------
--------------------------------------
-
-# To create a post
-create a <blogpost-title>.mdown
-Date: June 11 2014
-Categories: cat
-Summary: cat stuff
-Author: Jen Diamond
-
-\# Cat Pies
-Missing until dinner time hate dog
-Cat ipsum dolor sit amet, intently sniff hand. Why must they do that behind the couch chase imaginary bugs. Chase imaginary bugs.  stretch chew 
-
-
-![tabby](attachments/tabbybook.jpg)
+This project involves understanding the Ruby Standard Library, writing guides explaining it, creating a repl and the Rails site to host it on.
