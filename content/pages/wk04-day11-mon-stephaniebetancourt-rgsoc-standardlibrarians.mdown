@@ -1,0 +1,81 @@
+Date: 21 July 2014
+Author: Stephanie Betancourt
+
+# Git, Retrospective, and Ripl
+
+On Monday, Pat, Stephanie, Rob, and Jen met with Pivots Mike and Ryan for our Week Three Retrospective. We did a Google Hangout with Josh and were able to loop him in for mobbing. 
+
+# Study Session: Git Workflow
+
+Over the weekend, an issue arose with a force push canceling out a contributor's previous git commit. There are a few things we could have done differently to prevent this from happening again:
+
+**First**, when renaming files, use the format `$ git mv oldname newname`.  If you don't change names this way, git assumes that you have created one file and deleted the old file, rather than simply renaming it.
+
+**Second**, it's never a good idea to `git force push`. This creates issues for all the other contributors. The only time when it's acceptable to `git force` is if you are working on your own branch with no other contributors.
+
+**Third**, always git pull before making changes to a repo with other contributors.
+
+**Fourth**, work with branches whenever possible to avoid conflicts. Merge your branch with other branches or do a pull request to merge into master.
+
+There are two basic git philosophies. The centralized philosophy uses a central repo, and all contributors push to that location. Subversion is an example of git that was centralized. Github master branch is centralized. With the centralized philosophy, you tend to run into more merge conflicts. You have to have network connectivitiy to commit.
+
+The distributed philosophy keeps a copy of the git history on every contributor's machine. Usually the master branch is used to push to production, and you use "topic" or "feature" branches to work on features.
+
+To check out a branch someone else has made, you can use `$ git checkout -b branchname origin/branchname`. 
+
+**Three ways to get a merge conflict:**
+
+1.When two contributors edit the same line of the same file
+
+2.When someone renames a file that another has worked on
+
+3.When two contributors add a file with the same name
+
+Note: HEAD refers to the current commit in the local repo.
+
+**Git stash**
+
+Git stash saves local changes. It's used with `$ git stash save` and `$ git stash pop`. When you save, you stash your local changes so if you run `$ git status` it will tell you you have no changes. You can then pop the changes off the stack, and `$ git status` will tell you that there are changes again.
+
+Git stash uses a stack, and the most recent stash goes on top, just like a calculator stack. The two operations `push` and `pop` refer to stashes being added and removed from the stack. Each repo has its own stash stack, and it's all kept in the .git folder.
+
+![Pat's git workflow diagram](/attachments/7_21gitworkflow.jpg)
+
+=============
+
+# Retrospective
+
+Josh and the Pivots joined us at this point for the retrospective.
+
+Some of the positive things discussed were our field trip down to San Diego this weekend to visit Woody Zuille's workshop to see how they mob. A few people added that getting ripl running and finding out about nirvana were good things. Getting into a rhythm was a plus, as was writing the manual of mob. One thing talked about in previous retrospectives was respecting the team and schedules, and this was added as a positive accomplishment.
+
+In the 'meh' column were doubts about slow progress, wanting to code more, and wanting to spend more time coding versus research and troubleshooting.
+
+In the negative column was slow pace, a general sense that there are a lot of things keeping us from moving quickly. Tool fetishization was also listed as a timesuck, spending time researching the best tool versus picking one and moving on. There was a miscommunication about Thursday, where Stephanie showed up and no one was there to meet. Also a negative comment about spending too much time troubleshooting.
+
+![Retrospective Teamwork](/attachments/7_21retrospective.jpg)
+
+**Action Items**
+1.The person to the right of the navigator (two spots to the right of the driver) is designated to call out "Move on" when discussion goes on a tangent.
+2.@Jen to schedule copywriting days
+3.When tools are needed, tooling discussions are timeboxed to 15 minutes.
+4.@Mike to give the team a key to the office
+6.Make email list, or use google groups to get the word out quickly to the team
+
+**Notes:**
+Pat noted that progress is slow because we are frontloading the chores, and that once we accomplish these we will be movingn much faster. Mike remarked that the team should stick to the stories in Tracker instead of going rogue and researching whatever we like. 
+
+![Whiteboard Retrospective](/attachments/7_21whiteboard.jpg)
+
+=============
+
+# Ripl
+
+The next story in our backlog was a ripl chore. We had to see if ripl works in the browser. Ryan said that all we had to do was see if ripl handles http protocol, and then we would have satisfied the story, since all browsers use http. 
+We began looking through [the ripl repo](https://github.com/cldwalker/ripl). We wanted to find a method to evaluate user input. We found a method called `self.start` which seemed promising. We found a shell method and an eval method.
+
+We generated a controller called webtest. In Rails, controllers respond to web requests if you have routes properly specified. So we editing the routes.
+
+We tried to ping our server with `$ ping 0.0.0.0/webtest` but got back a missing route. Ryan pointed out that ping wouldn't help us, because it uses ICMP protocol instead of HTTP. So our next idea was to do a curl request, but to use the correct route /webtest/index. 
+
+That worked! `$ curl 0.0.0.0/webtest/index` responded with Hello World, just as we had specified. 
