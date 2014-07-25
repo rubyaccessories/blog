@@ -1,0 +1,29 @@
+Date: 23 July 2014
+Author: Josh Loper
+
+# Redirect and rendering a query
+
+We dug into rendering an evaluation from RIPL.  We added a redirect_to go to another website.  After that we, added the evaluation of the params hash.  
+
+We also learned more about getter and setter methods.  For example,  
+  def name=(new_name)  
+    @name = new_name  
+  end  
+allows you to write something like   
+foo.name = "Cynthia"  
+and assign Cynthia to name.  This is also the same thing that attr_writer does.  
+
+class Foo  
+  attr_writer(:name)  
+
+  def name=(new_name)  
+    @name = new_name  
+  end  
+  def name  
+    @name  
+  end  
+end  
+
+foo = Foo.new  
+foo.name = "Cynthia"  
+foo.name=("Cynthia")  
