@@ -1,0 +1,23 @@
+Date: 25 July 2014
+Author: Robert Wilkinson
+
+# Working with Woody
+
+
+On Friday, some of our team went to San Diego to spend time with [Woody Zuill](twitter.com/WoodyZuill) and his team before they left to speak at Agilie2014. Woody is a huge proponent of the mob programming philosophy and we came to see how he puts it into practice with his team of developers. His team of [Dexter Baga](twitter.com/onbydefault), [Jason Kerney](twitter.com/JasonKerney), Aaron Griffith, and Gordon Pu were kind enough to let us observe and even join in their rotation. They were working with C# code, a language most of us were not too familiar with, but it was still a great learning experience.
+
+![Us and Woody](/attachments/7-25group.jpg)
+
+We noticed a few key things about their set up:
+
+**First**, individual keyboard preferences need to be instantly configureable. Their team's dev box was hooked up to multiple keyboards and had a setting to instantly change the keyboard layout so they didn’t need to waste valuable time fiddling with specific settings every time they sat down.
+
+**Secondly**, any time spent waiting for an answer to a question is time wasted. 
+
+**Thirdly**, learning by osmosis can be a huge thing. If everyone is in the same room and one person runs into a block then everyone else, even if working on something else, can overhear and if they hit the same problem later, they can find the solution.
+
+Woody gave a mini-seminar during lunch about his philosophy and how it worked from both a human and business standpoint. One of the key ideas was the difference between efficiency and effectiveness. Simply doing a lot of work fast makes you efficient, but being effective is doing the right work. If you ship a lot of code but have to throw half of it out, you might have been very efficient but you weren't effective. 
+
+Having 5 people locked away in cubicles coding individually doesn’t seem like a very human thing either, in the end, we are social creatures and imposing this sense of isolation is unnatural. Mob programming is a much more natural way. One of Woody's developers, Dexter Baga, said it best "There's not a day that I wake up and I'm not excited to go to work”.
+
+One other thing Woody said really stuck with me as well, "Crafting a team isn't about finding 5 people who are all the same, it's about finding 5 people who fill in each other's gaps.""
