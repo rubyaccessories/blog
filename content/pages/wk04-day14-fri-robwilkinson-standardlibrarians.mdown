@@ -20,4 +20,4 @@ Woody gave a mini-seminar during lunch about his philosophy and how it worked fr
 
 Having 5 people locked away in cubicles coding individually doesn’t seem like a very human thing either, in the end, we are social creatures and imposing this sense of isolation is unnatural. Mob programming is a much more natural way. One of Woody's developers, Dexter Baga, said it best "There's not a day that I wake up and I'm not excited to go to work”.
 
-One other thing Woody said really stuck with me as well, "Crafting a team isn't about finding 5 people who are all the same, it's about finding 5 people who fill in each other's gaps.""
+One other thing Woody said really stuck with me as well, "Crafting a team isn't about finding 5 people who are all the same, it's about finding 5 people who fill in each other's gaps."
