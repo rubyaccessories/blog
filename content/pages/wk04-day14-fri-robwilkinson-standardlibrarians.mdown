@@ -4,7 +4,7 @@ Author: Robert Wilkinson
 # Working with Woody
 
 
-On Friday, some of our team went to San Diego to spend time with [Woody Zuill](twitter.com/WoodyZuill) and his team before they left to speak at Agilie2014. Woody is a huge proponent of the mob programming philosophy and we came to see how he puts it into practice with his team of developers. His team of [Dexter Baga](twitter.com/onbydefault), [Jason Kerney](twitter.com/JasonKerney), Aaron Griffith, and Gordon Pu were kind enough to let us observe and even join in their rotation. They were working with C# code, a language most of us were not too familiar with, but it was still a great learning experience.
+On Friday, some of our team went to San Diego to spend time with [Woody Zuill](http://twitter.com/WoodyZuill) and his team before they left to speak at Agilie2014. Woody is a huge proponent of the mob programming philosophy and we came to see how he puts it into practice with his team of developers. His team of [Dexter Baga](http://twitter.com/onbydefault), [Jason Kerney](http://twitter.com/JasonKerney), Aaron Griffith, and Gordon Pu were kind enough to let us observe and even join in their rotation. They were working with C# code, a language most of us were not too familiar with, but it was still a great learning experience.
 
 ![Us and Woody](/attachments/7-25group.jpg)
 
