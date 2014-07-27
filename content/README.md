@@ -5,15 +5,17 @@ Create a new document inside of the $content/pages directory.
 Name it with the appropriate date and your name like this:
 wk04-day13-wed-yourname-rgsoc-standardlibrarians.mdown
 
-Formatting is crucial for your post to show up on the site.
-There are 3 elements that you cannot vary from
+Formatting is crucial for your post to show up on the site.  
+There are 3 elements that you cannot vary from  
+
 1. the Date 
 2. the author
 3. an h1 tag
-4. 
-like this:
-Date: 23 July 2014
-Author: your name
+
+
+like this:  
+Date: 23 July 2014  
+Author: your name  
 
 /# Your Heading
 
