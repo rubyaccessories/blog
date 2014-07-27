@@ -1,10 +1,21 @@
-Goals of The Standard Librarians
+Posting to the Standard Librarians blog.
 
-Launch a Rails site so the community can easily try out some of the elements of the Ruby Standard Library.
+Create a new document inside of the $content/pages directory.
 
-Create of an in-browser REPL for the Ruby 2.1.2 Ruby Standard Library like TryRuby.org.
-Create an open source learning tool for the community.
-Making the Ruby Standard Library more accessable for beginners.
-Use Sinatra to blog about the progress and challenges of the creation. We are using Nesta.
+Name it with the appropriate date and your name like this:
+wk04-day13-wed-yourname-rgsoc-standardlibrarians.mdown
 
-This project involves understanding the Ruby Standard Library, writing guides explaining it, creating a repl and the Rails site to host it on.
+Formatting is crucial for your post to show up on the site.
+There are 3 elements that you cannot vary from
+1. the Date 
+2. the author
+3. an h1 tag
+4. 
+like this:
+Date: 23 July 2014
+Author: Josh Loper
+
+# Redirect and rendering a query
+
+
+The easiest thing to do is to use an old post, rename it and change the info.
