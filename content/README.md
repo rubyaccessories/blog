@@ -13,9 +13,9 @@ There are 3 elements that you cannot vary from
 4. 
 like this:
 Date: 23 July 2014
-Author: Josh Loper
+Author: your name
 
-# Redirect and rendering a query
+/# Your Heading
 
 
 The easiest thing to do is to use an old post, rename it and change the info.
