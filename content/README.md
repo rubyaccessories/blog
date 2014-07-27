@@ -1,4 +1,4 @@
-Posting to the Standard Librarians blog.
+## Posting to the Standard Librarians blog.
 
 Create a new document inside of the $content/pages directory.
 
