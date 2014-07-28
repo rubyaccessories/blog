@@ -21,3 +21,5 @@ Author: your name
 
 
 The easiest thing to do is to use an old post, rename it and change the info.
+
+To run it locally run $mr-sparkle config.ru
