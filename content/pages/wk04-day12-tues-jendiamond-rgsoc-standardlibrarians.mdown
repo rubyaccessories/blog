@@ -1,0 +1,28 @@
+Date: 22 July 2014
+Author: Jen Diamond
+
+# Ripl.start
+
+Tonight we continued our exploration of Ripl. We are now trying to run it in a browser.
+
+webtest_helper.rb
+
+lib/ripl/shell.rb
+
+Why instantiate a class? If you need a unique state.  
+This is the difference between a module and a class. A module does not need a unique state.
+
+We used the Ripl.start method  
+$Ripl.shell.eval_input("RUBY_VERSION")  
+build status header and body
+
+in the webtest_controller.rb..
+
+    def index  
+      render text:Ripl.shell.eval_input("2+2")  
+    end
+
+We set up port forwarding in our Vagrantfile  
+  guest 3000 host 300
+
+

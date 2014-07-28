@@ -1,25 +1,43 @@
 Date: 25 July 2014
 Author: Robert Wilkinson
 
-# Working with Woody
+# Working with Woody Zuill
 
-
-On Friday, some of our team went to San Diego to spend time with [Woody Zuill](http://twitter.com/WoodyZuill) and his team before they left to speak at Agile2014. Woody is a huge proponent of the mob programming philosophy and we came to see how he puts it into practice with his team of developers. His team of [Dexter Baga](http://twitter.com/onbydefault), [Jason Kerney](http://twitter.com/JasonKerney), Aaron Griffith, and Gordon Pu were kind enough to let us observe and even join in their rotation. They were working with C# code, a language most of us were not too familiar with, but it was still a great learning experience.
+On Friday, some of our team went to San Diego to spend time with [Woody Zuill](http://twitter.com/WoodyZuill) and his team at [Hunter Industries](https://twitter.com/HunterIndJobs) before their team went to speak at [Agile2014](http://agile2014.agilealliance.org/program/). Woody is a huge proponent of the mob programming philosophy and a pioneer of this practice. We came to see how he puts it into practice with his team of developers. His team, [Dexter Baga](http://twitter.com/onbydefault), [Jason Kerney](http://twitter.com/JasonKerney), Aaron Griffith and Gordon Pu, were kind enough to let us observe and even join in their rotation. They work with C# code, a language most of us were not familiar with. Even so, we were able to jump right in and contribute to their project. It was an amazing learning experience.
 
 ![Us and Woody](/attachments/7-25group.jpg)
 
-**Woody's Team and Us:** (from l-r): Gordon Pu, Dexter Baga, Stephanie Betancourt, Nickolay Kondratyev, Jen Diamond, Jason Kerney, Woody Zuill, Pat Maddox, Rob Wilkinson
+**The Hunter Industry Mobbing Team and The Standard Librarians:** (from l-r): Gordon Pu, Dexter Baga, Stephanie Betancourt, Nickolay Kondratyev, Jen Diamond, Jason Kerney, Woody Zuill, Pat Maddox, Rob Wilkinson
 
-We noticed a few key things about their set up:
+**We noticed a few key things about their set up:**
 
-**First**, individual keyboard preferences need to be instantly configureable. Their team's dev box was hooked up to multiple keyboards and had a setting to instantly change the keyboard layout so they didn’t need to waste valuable time fiddling with specific settings every time they sat down.
+**Individual keyboard preferences need to be instantly configureable.**  
+Their team's dev. box is hooked up to multiple keyboards and has a setting to 
+instantly change the keyboard layout so they don’t need to waste time 
+fiddling with the settings every time they sit down.
 
-**Secondly**, any time spent waiting for an answer to a question is time wasted. 
+**Any time spent waiting for an answer to a question is time wasted.**  
+Mobbing helps solve this problem. Woody's team has other development teams they can call if they get hung up on a problem for more more than a few minutes.
 
-**Thirdly**, learning by osmosis can be a huge thing. If everyone is in the same room and one person runs into a block then everyone else, even if working on something else, can overhear and if they hit the same problem later, they can find the solution.
+**Learning by osmosis.**  
+If everyone is in the same room and one person runs into a block then everyone else, even if they are working on something else, can over-hear what they are working on and contribute to solving the problem.
 
-Woody gave a mini-seminar during lunch about his philosophy and how it worked from both a human and business standpoint. One of the key ideas was the difference between efficiency and effectiveness. Simply doing a lot of work fast makes you efficient, but being effective is doing the right work. If you ship a lot of code but have to throw half of it out, you might have been very efficient but you weren't effective. 
+**We need a laser pointer**  
+A laser pointer is a really useful tool when you are projecting your code. 
+It helps you physically point to the section you want someone to look at.
 
-Having 5 people locked away in cubicles coding individually doesn’t seem like a very human thing either, in the end, we are social creatures and imposing this sense of isolation is unnatural. Mob programming is a much more natural way. One of Woody's developers, Dexter Baga, said it best "There's not a day that I wake up and I'm not excited to go to work”.
+**Rotating into the session with no explanation**  
+We just started rotating into their project without an explanation of what they 
+are working on. During the mob sesssions of the Standard Librarians we have made sure to update people if they were new to our project. We were all suprised that even though we didn't know what Woody's team was working on specifcally we could jump right in and contribute.
 
-One other thing Woody said really stuck with me as well, "Crafting a team isn't about finding 5 people who are all the same, it's about finding 5 people who fill in each other's gaps."
+==============================
+
+## The Mobbing Philosophy - Efficiency vs. Effectiveness
+
+Woody gave a mini-seminar during lunch about his philosophy and how it works from both a human and business standpoint. One of the key ideas is the difference between efficiency and effectiveness. Simply doing a lot of work quickly makes you efficient, but not necessarily effective. Being effective is doing the right work. If you ship a lot of code but have to throw half of it out, you might have been very efficient but you weren't effective.
+
+As humans we are social creatures. Having people coding away in cubicles individually imposes a sense of isolation which is unnatural. Mob programming is a much more natural way for people to work. We are collaborators and our work is best with the strength of others. Dexter Baga was talking about the experience of mobbing with his team and had this to say about it;  "There's not a day that I wake up and I'm not excited to go to work”. That seems like a great way to feel about your job.
+
+One other thing Woody said really stuck with me; "Crafting a team isn't about finding 5 people who are all the same, it's about finding 5 people who fill in each other's gaps."
+
+If you want to learn more about Woody Zuill's philosopy on Mob Programming checkout [this video](http://www.infoq.com/interviews/zuill-mob-programming) and his [website](http://mobprogramming.org/) about mobbing.
