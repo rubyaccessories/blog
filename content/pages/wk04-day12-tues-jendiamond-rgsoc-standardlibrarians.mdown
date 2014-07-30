@@ -3,6 +3,8 @@ Author: Jen Diamond
 
 # Ripl.start
 
+Today we worked on the narrative text so we can get a leg up on the story.
+
 Tonight we continued our exploration of Ripl. We are now trying to run it in a browser.
 
 webtest_helper.rb
