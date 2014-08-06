@@ -5,4 +5,5 @@ gem 'gravtastic'
 
 group :development do
   gem 'mr-sparkle'
+  gem 'rack'
 end
