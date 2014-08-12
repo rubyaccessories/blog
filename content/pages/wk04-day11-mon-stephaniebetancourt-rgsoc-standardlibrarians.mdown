@@ -5,7 +5,7 @@ Author: Stephanie Betancourt
 
 On Monday, Pat, Stephanie, Rob, and Jen met with Pivots Mike and Ryan for our Week Three Retrospective. We did a Google Hangout with Josh and were able to loop him in for mobbing. 
 
-# Study Session: Git Workflow
+## Study Session: Git Workflow
 
 Over the weekend, an issue arose with a force push canceling out a contributor's previous git commit. There are a few things we could have done differently to prevent this from happening again:
 
@@ -43,7 +43,7 @@ Git stash uses a stack, and the most recent stash goes on top, just like a calcu
 
 =============
 
-# Retrospective
+## Retrospective
 
 Josh and the Pivots joined us at this point for the retrospective.
 
@@ -69,7 +69,7 @@ Pat noted that progress is slow because we are frontloading the chores, and that
 
 =============
 
-# Ripl
+## Ripl
 
 The next story in our backlog was a ripl chore. We had to see if ripl works in the browser. Ryan said that all we had to do was see if ripl handles http protocol, and then we would have satisfied the story, since all browsers use http. 
 We began looking through [the ripl repo](https://github.com/cldwalker/ripl). We wanted to find a method to evaluate user input. We found a method called `self.start` which seemed promising. We found a shell method and an eval method.

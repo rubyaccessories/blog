@@ -51,3 +51,4 @@ DEPENDENCIES
   gravtastic
   mr-sparkle
   nesta (= 0.10.0)
+  rack

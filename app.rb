@@ -85,15 +85,16 @@ EOF
       end
 
       def article_months
+        18n.t("date.month_names") # [nil, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
         articles = Page.find_articles
-        last, first = articles[0].date.month, articles[-1].date.month
+        last, first = articles[0].date.month_names, articles[-1].date.month_names
         (first..last).to_a.reverse
       end
 
       def archive_by_month
-        article_months.each do |month|
+        article_months.each do |month_name|
           haml_tag :li do
-            haml_tag :a, :id => "#{month}"
+            haml_tag :a, :id => "#{month_name}"
             haml_tag :h2, month
             haml_tag :ol do
               articles = Page.find_articles.select { |a| a.date.month == month }

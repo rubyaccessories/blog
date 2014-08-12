@@ -127,7 +127,7 @@ ul li, ol li {margin-bottom: 12px;}
 section.articles ol li {margin-bottom: 27px;}
 
 h1 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -136,10 +136,13 @@ h1 {
 }
 
 h2 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 13px;
-    letter-spacing: 1px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #900;
+    text-decoration:underline;
 }
 
 /*top branding*/
