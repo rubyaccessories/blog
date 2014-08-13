@@ -1,0 +1,23 @@
+Date: 28 July 2014
+Author: Stephanie Betancourt
+
+We took stock of our progress and the schematic of our app.
+
+# Assessing Progress
+
+## Standups
+We discussed standups and said that the two questions a standup should answer are "What did you do yesterday?" and "What are you doing today?". 
+
+We did an exhaustive IPM and repointed a lot of stories that had been broken down. We added several new stories to the backlog. One of our eight-point stories was reevaluated as a five because we had done a lot of research chores and had a better handle on it. 
+
+Mike let us know that he'd be in and out of the project a lot in the coming weeks because he's on another project in Palo Alto. 
+
+## Standard Out, Standard In, and Standard Error
+
+Ruby uses a file descriptor to handle these types of information. Stdin communicates input, like user input. It's saved in a file when the user hits return, and their input is read. The terminal then ouputs the response on the screen. You can capture stdout or redirect it to be saved in a file, etc.
+
+## URIs and URLs
+
+In a web address, the part that says "https:" or "smb:" is called the scheme. 
+
+We then wrote a test to ensure that our copy showed up in the app. We discussed the "has a" and "is a" relationships and the difference between the two. 

@@ -136,13 +136,11 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
     margin-bottom: 13px;
-    text-transform: uppercase;
     letter-spacing: 2px;
     color: #900;
-    text-decoration:underline;
 }
 
 /*top branding*/
