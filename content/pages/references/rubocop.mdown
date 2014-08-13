@@ -1,0 +1,3 @@
+#RuboCop
+
+[Rubocop](https://github.com/bbatsov/rubocop) is a handy tool that runs through your code and alerts you if you have incorrect spacing, imporper indentation, and extraneous usage of double quotes. It compares your code to the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). It even has multiple plugins allowing you to run it in your text editor.

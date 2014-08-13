@@ -30,3 +30,7 @@ Vim is often called a "programmer's editor," and so useful for programming that 
 ###[Writing a good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 [This is also a good reference about commit messages.](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
 ***
+***
+###[RuboCop](http://thestandardlibrarians.herokuapp.com/references/rubocop)
+RuboCop is a handy tool to compare your code to Ruby Style Guide.
+***
