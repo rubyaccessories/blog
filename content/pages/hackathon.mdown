@@ -1,0 +1,14 @@
+Date: 13 August 2014
+Link text: Hackathon
+Author: The Standard Librarians
+Summary: The Standard Librarians are hosting a hackathon on Sunday August 24, 2014, from 10am - 4pm.
+
+# Hackathon
+
+![hackathon](/attachments/Hackathon.png)
+
+
+The Standard Librarians are hosting a Hackathon on Sunday August 23rd from 10a - 4p. 
+
+More information to follow!
+
