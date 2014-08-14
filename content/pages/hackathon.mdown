@@ -5,10 +5,11 @@ Summary: The Standard Librarians are hosting a hackathon on Sunday August 24, 20
 
 # Hackathon
 
-![hackathon](/attachments/Hackathon.png)
+
 
 
 The Standard Librarians are hosting a Hackathon on Sunday August 23rd from 10a - 4p. 
 
 More information to follow!
 
+![hackathon](/attachments/Hackathon.png)
