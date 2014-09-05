@@ -10,8 +10,8 @@ Summary: Stephanie Betancourt is a core contributor to The Standard Librarians R
 Stephanie Betancourt is the Director of Information Technology at California 
 Association of Independent Schools.
 
-[Stephanie](http://www.stephaniebetancourt.com) is on the core team of the Standard Librarians, a RailsGirls Summer of Code open source project. She loves [reading books](https://www.goodreads.com/user/show/7208734-stephanie), writing code, traveling the world, and eating pie. 
-
+[Stephanie](http://www.stephaniebetancourt.com) was on the core team of the Standard Librarians, a RailsGirls Summer of Code open source project. She loves [reading books](https://www.goodreads.com/user/show/7208734-stephanie), writing code, traveling the world, and eating pie. 
+Stephanie worked on the project from inception to August 21, 2014.
 Stephanie attended Railsbridge in 2012, and began learning Rails. Over the last five years, she has built many front-end sites. She coached RailsGirls LA this spring. Her interests include leveraging webapps to make sense of data for nonprofits and education.
 
 + [GitHub](http://www.github.com/stephaniebetancourt)  &#149; [Twitter](https://twitter.com/stephanieblack) &#149; [Linkedin](https://www.linkedin.com/in/stephaniebetancourt)
