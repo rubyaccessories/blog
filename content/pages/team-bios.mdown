@@ -5,4 +5,5 @@ Summary: The team of the Standard Librarians are creating an in-browser REPL sim
 
 # Team Bios
 
-The team of the Standard Librarians are creating an in-browser REPL similar to TryRuby.org for testing out the Ruby Standard Library. This project is part of Rails Girls Summer of Code 2014.
+The team of the Standard Librarians are creating an in-browser REPL similar to TryRuby.org for testing out the Ruby Standard Library. 
+This project started out as a project for Rails Girls Summer of Code 2014.

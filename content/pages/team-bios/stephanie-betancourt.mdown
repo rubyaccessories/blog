@@ -4,7 +4,7 @@ Summary: Stephanie Betancourt is a core contributor to The Standard Librarians R
 <img style="float: right" src="/attachments/stephaniepic.jpg" />
 
 
-#  Core Contributor - Stephanie Betancourt
+#  Contributor - Stephanie Betancourt
 
 
 Stephanie Betancourt is the Director of Information Technology at California 

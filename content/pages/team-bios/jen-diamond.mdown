@@ -4,11 +4,23 @@ RGSoC Project. She is also very active in the Ruby & Rails community.
 
 # Core Contributor - Jen Diamond
 
+ <img style="float: right" src="/attachments/jendiamond_flowers.jpg" />
+
 Jen Diamond is very active in the Ruby & Rails community. She organized
-the most recent Rails Girls workshop in Los Angeles and has been hosting
+the most recent RailsGirlsLA workshop in Los Angeles and has been hosting
 a weekly Ruby & Rails study group for a year and a half. Before Rails
 Girls she hosted many RailsBridge events in Los Angeles.
 
 Last year Jen participated in Rails Girls Summer of Code as a sponsored team.
 She contributed to Bundler. You may have gotten one of the warnings 
 she wrote when you $bundle install. :)
+
+Jen comes from a creative background in performance, film, music, painting and clothing design. She plans on using her new confidence in coding to build more sites, do some coding performances and to finally use her arduino kit. She will continue to contribute to the Ruby community by coaching, organizing Rails Girls events and maintaining and continuing to build up Feats of Daring.
+
++ [GitHub](http://www.github.com/jendiamond)  &#149; [Twitter](https://twitter.com/jendiamond) &#149; [Linkedin](https://www.linkedin.com/in/jendiamond)
+  
+<img style=" height: 50px" src="/attachments/domo-cat.png" />
+
+
+<a href="https://twitter.com/jendiamond" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @jendiamond</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
