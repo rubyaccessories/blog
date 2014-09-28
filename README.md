@@ -5,23 +5,24 @@ This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Li
 #### The Team consists of 
 
 * Jen Diamond
-* Stephanie Betancourt
-* Josh Loper
 * Omowale Oniyide
-* Jalil Mohammed
+* Josh Loper
+* Stephanie Betancourt
 
 #### Coaching Company 
 
   **Pivotal Labs:**  
-  Mike McCormick, John Ryan, Ryan Moran, Dave Bellotti, Zachary Gershman
+  Mike McCormick, John Ryan, Ryan Moran, Eric Hu
   
-#### Mentors 
+#### Mentor 
 
   Pat Maddox
 
 #### The blog can be found on Heroku at (http://thestandardlibrarians.herokuapp.com/)
 
 ## Goals of The Standard Librarians
+
+#### Learn and become confident with our code.
 
 #### Launch a Rails site so the community can easily try out some of the elements of the Ruby Standard Library.
 
