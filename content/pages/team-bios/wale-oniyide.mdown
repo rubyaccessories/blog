@@ -1,6 +1,0 @@
-Categories: team-bios
-Summary: Wale Oniyide is a core contributor to The Standard Librarians RGSoC Project. 
-
-# Core Contributor - Wale Oniyide
-
-Wale Oniyide is a core contributor to The Standard Librarians RGSoC Project. 

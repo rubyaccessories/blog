@@ -1,11 +1,9 @@
-Categories: team-bios:1
+Categories: team-bios:4
 Summary: Stephanie Betancourt is a core contributor to The Standard Librarians RGSoC Project. She is also the Director of Information Technology at California Association of Independent Schools.
 
 <img style="float: right" src="/attachments/stephaniepic.jpg" />
 
-
 #  Contributor - Stephanie Betancourt
-
 
 Stephanie Betancourt is the Director of Information Technology at California 
 Association of Independent Schools.

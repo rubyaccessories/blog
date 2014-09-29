@@ -1,6 +1,10 @@
-Categories: team-bios
-Summary: Josh is a collaborator on The Standard Librarians Project.
+Categories: team-bios:3
+Summary: Josh is a core contributor on The Standard Librarians Project.
 
 # Collaborator - Josh Loper
 
-Josh is a collaborator on The Standard Librarians Project.
+<img style="float: right" src="/attachments/josh-loper-sm.jpg" />
+
+Josh started programming in elementary school. He has a fascination with stars and testing. 
+
+He was pair programming with Jen Diamond during the Ruby Study group when she asked him to coach at Rails Girls in March 2014. He agreed and had such a great time that when Jen invited him to join the Rails Girls Summer of Code project he also agreed. He has been a core contributor since before the projects inception. 

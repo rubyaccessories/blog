@@ -1,0 +1,15 @@
+Categories: team-bios:2
+Summary: Omowale Oniyide is a core contributor to The Standard Librarians RGSoC Project. 
+
+# Core Contributor - Omowale Oniyide
+
+<img style="float: right" src="/attachments/omowale-oniyide-sm.jpg" />
+
+Omowale Oniyide is a core contributor to The Standard Librarians RGSoC Project. 
+
+Omowale, Wale for short, produced underground art and music events which provided youth safe places to express themselves. These events included breakdancing contests, street art, sticker trades, metal/ska shows and competitive food challenges. 
+
+Wale recently returned to school to pursue a serious interest in interactive media and game development.  
+
+She was introduced to Ruby and Summer of Code through attending a Rails Girls workshop in March.
+She had applied to Rails Girls Summer of Code with a friend but did not get in. Their would-be coach also happened to be the coach for The Standard Librarians so he asked if Wale could join the Standard Librarians and they happily agreed. She has worked on the project since it's inception at Pivotal Labs.
