@@ -13,7 +13,7 @@ meantime we had some good discussions based around trying to solve the issues at
 
   ---------------------
   
-  ### root
+  ### resources
   
   The failing test involved the `config/routes` and the views. So we discussed the routing of our project.
   We explained how ` root 'home#index' ` is working in the `config/routes.rb`
