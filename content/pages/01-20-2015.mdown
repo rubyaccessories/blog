@@ -49,3 +49,6 @@ meantime we had some good discussions based around trying to solve the issues at
   
   [http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag](http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag)
   
+  While looking at this documentation I saw the part:  
+  :remote - If set to true, will allow the Unobtrusive JavaScript drivers to control the submit behavior. By default this behavior is an ajax submit.  
+  This could be useful when we go to do Ajax calls.
