@@ -11,8 +11,8 @@ failing test so we decided to fix it before proceeding with the stories in the P
 It was pretty much a wild goose chase which was later solved with a fresh install of Vagrant but in the 
 meantime we had some good discussions based around trying to solve the issues at hand. 
   ---------------------
-The failing test involved the config/routes and the views. So we discussed the routing of our project.
-we explained how ` root 'home#index' ` is working in the `config/routes.rb`
+The failing test involved the `config/routes` and the views. So we discussed the routing of our project.
+We explained how ` root 'home#index' ` is working in the `config/routes.rb`
 
 + in the `config/rotes.rb` file `root` is where the internet starts when it comes to your web page
 + home is refering to the HomeController - `app/controllers/home_controller.rb`
@@ -33,8 +33,9 @@ we explained how ` root 'home#index' ` is working in the `config/routes.rb`
   We looked at the Rails method `form_tag`
   
   [http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag](http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag)
-  ** form_tag(url_for_options = {}, options = {}, &block) Link **
-Starts a form tag that points the action to an url configured with url_for_options just like ActionController::Base#url_for. The method for the form defaults to POST.
+ 
+  **form_tag(url_for_options = {}, options = {}, &block) Link**
+  Starts a form tag that points the action to an url configured with url_for_options just like ActionController::Base#url_for. The method for the form defaults to POST.
   
   [http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag](http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag)
   
