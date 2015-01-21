@@ -34,7 +34,7 @@ We explained how ` root 'home#index' ` is working in the `config/routes.rb`
   
   [http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag](http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag)
  
-  **form_tag(url_for_options = {}, options = {}, &block) Link**
+  **form_tag(url_for_options = {}, options = {}, &block)**  
   Starts a form tag that points the action to an url configured with url_for_options just like ActionController::Base#url_for. The method for the form defaults to POST.
   
   [http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag](http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag)
