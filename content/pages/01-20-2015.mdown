@@ -10,7 +10,9 @@ failing test so we decided to fix it before proceeding with the stories in the P
 
 It was pretty much a wild goose chase which was later solved with a fresh install of Vagrant but in the 
 meantime we had some good discussions based around trying to solve the issues at hand. 
+
   ---------------------
+  
 The failing test involved the `config/routes` and the views. So we discussed the routing of our project.
 We explained how ` root 'home#index' ` is working in the `config/routes.rb`
 
@@ -30,6 +32,8 @@ We explained how ` root 'home#index' ` is working in the `config/routes.rb`
   [http://apidock.com/rails/ActionController/Resources/resources](http://apidock.com/rails/ActionController/Resources/resources)
   [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html)
   
+    ---------------------
+    
   We looked at the Rails method `form_tag`
   
   [http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag](http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag)
