@@ -3,7 +3,7 @@ Author: Jen Diamond
 
 ## A New Team Looks at Legacy Code
 
-#### David Turner - Kaliza Falzone - Jen Diamond
+David Turner - Kaliza Falzone - Jen Diamond
 
 Tonight we worked at the Starbucks in Santa Monica. We ran the specs for featsofdaring. There was a 
 failing test so we decided to fix it before proceeding with the stories in the Pivotal Tracker.
@@ -11,16 +11,6 @@ failing test so we decided to fix it before proceeding with the stories in the P
 It was pretty much a wild goose chase which was later solved with a fresh install of Vagrant but in the 
 meantime we had some good discussions based around trying to solve the issues at hand. 
 
----------------------
-  
-   ### resources
-  
-  **We also discussed resources as they relate to CRUD and HTTP protocol.**
-  Here are a few things to read about that.
-  [http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html](http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html)
-  [http://apidock.com/rails/ActionController/Resources/resources](http://apidock.com/rails/ActionController/Resources/resources)
-  [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html)
-  
   ---------------------
  
   # root
@@ -40,8 +30,8 @@ meantime we had some good discussions based around trying to solve the issues at
   
   ### resources
   
-  **We also discussed resources as they relate to CRUD and HTTP protocol.**
-  Here are a few things to read about that.
+  **We also discussed resources as they relate to CRUD and HTTP protocol.**  
+  Here are a few things to read about that.  
   [http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html](http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html)
   [http://apidock.com/rails/ActionController/Resources/resources](http://apidock.com/rails/ActionController/Resources/resources)
   [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html)
