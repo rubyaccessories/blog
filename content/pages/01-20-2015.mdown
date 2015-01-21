@@ -13,16 +13,16 @@ meantime we had some good discussions based around trying to solve the issues at
 
   ---------------------
   
-The failing test involved the `config/routes` and the views. So we discussed the routing of our project.
-We explained how ` root 'home#index' ` is working in the `config/routes.rb`
+  The failing test involved the `config/routes` and the views. So we discussed the routing of our project.
+  We explained how ` root 'home#index' ` is working in the `config/routes.rb`
 
-+ in the `config/rotes.rb` file `root` is where the internet starts when it comes to your web page
-+ home is refering to the HomeController - `app/controllers/home_controller.rb`
-+ #index refers to the method `index` which is defined in the HomeController -   
-  def index  
-  end
-+  because `def index` is blank we are taken to the view `home` to find the index there
-  `app/view/home/index.html.erb` and that is what we see as a web page
+  + in the `config/rotes.rb` file `root` is where the internet starts when it comes to your web page
+  + home is refering to the HomeController - `app/controllers/home_controller.rb`
+  + #index refers to the method `index` which is defined in the HomeController -   
+    def index  
+    end
+  +  because `def index` is blank we are taken to the view `home` to find the index there
+    `app/view/home/index.html.erb` and that is what we see as a web page
   
   ---------------------
   
