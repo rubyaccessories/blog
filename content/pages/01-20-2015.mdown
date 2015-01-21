@@ -42,6 +42,9 @@ meantime we had some good discussions based around trying to solve the issues at
     
   **We looked at the Rails method `form_tag`**
   
+  Our form_tag looks like this:  
+  `<%= form_tag repl_adventure_objective_path(1, 1) do %>`  
+  
   [http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag](http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag)
  
   **form_tag(url_for_options = {}, options = {}, &block)**  
