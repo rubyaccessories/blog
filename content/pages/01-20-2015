@@ -1,0 +1,40 @@
+Date: 1 January 2015
+Author: Jen Diamond
+
+# Errors
+
+#### David Turner Kaliza Falzone Jen Diamond
+
+Tonight we worked at the Starbucks in Santa Monica. We ran the specs for featsofdaring. There was a 
+failing test so we decided to fix it before proceeding with the stories in the Pivotal Tracker.
+
+It was pretty much a wild goose chase which was later solved with a fresh install of Vagrant but in the 
+meantime we had some good discussions based around trying to solve the issues at hand. 
+
+The failing test involved the config/routes and the views. So we discussed the routing of our project.
+we explained how ` root 'home#index' ` is working in the `config/routes.rb`
+
++ in the `config/rotes.rb` file `root` is where the internet starts when it comes to your web page
++ home is refering to the HomeController - `app/controllers/home_controller.rb`
++ #index refers to the method `index` which is defined in the HomeController -   
+  def index  
+  end
++  because `def index` is blank we are taken to the view `home` to find the index there
+  `app/view/home/index.html.erb` and that is what we see as a web page
+  
+  ---------------------
+  
+  We also discussed resources as they relate to CRUD and HTTP protocol
+  Here are a few things to read about that.
+  [http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html](http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html)
+  [http://apidock.com/rails/ActionController/Resources/resources](http://apidock.com/rails/ActionController/Resources/resources)
+  [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html)
+  
+  We looked at the Rails method `form_tag`
+  
+  [http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag](http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag)
+  ** form_tag(url_for_options = {}, options = {}, &block) Link **
+Starts a form tag that points the action to an url configured with url_for_options just like ActionController::Base#url_for. The method for the form defaults to POST.
+  
+  [http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag](http://www.rubydoc.info/docs/rails/4.1.7/ActionView/Helpers/FormTagHelper:form_tag)
+  
