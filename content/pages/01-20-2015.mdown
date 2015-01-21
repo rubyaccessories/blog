@@ -11,7 +11,9 @@ failing test so we decided to fix it before proceeding with the stories in the P
 It was pretty much a wild goose chase which was later solved with a fresh install of Vagrant but in the 
 meantime we had some good discussions based around trying to solve the issues at hand. 
 
-    ---------------------
+  ---------------------
+  
+  ### home#index
   
   The failing test involved the `config/routes` and the views. So we discussed the routing of our project.
   We explained how ` root 'home#index' ` is working in the `config/routes.rb`
@@ -26,15 +28,19 @@ meantime we had some good discussions based around trying to solve the issues at
   
   ---------------------
   
-  We also discussed resources as they relate to CRUD and HTTP protocol
+  ### resources
+  
+  **We also discussed resources as they relate to CRUD and HTTP protocol.**
   Here are a few things to read about that.
   [http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html](http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html)
   [http://apidock.com/rails/ActionController/Resources/resources](http://apidock.com/rails/ActionController/Resources/resources)
   [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html)
   
-    ---------------------
+  ---------------------
+  
+  ### form_tag
     
-  We looked at the Rails method `form_tag`
+  **We looked at the Rails method `form_tag`**
   
   [http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag](http://apidock.com/rails/ActionView/Helpers/FormTagHelper/form_tag)
  
