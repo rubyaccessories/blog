@@ -13,7 +13,15 @@ meantime we had some good discussions based around trying to solve the issues at
 
 ---------------------
   
- 
+   ### resources
+  
+  **We also discussed resources as they relate to CRUD and HTTP protocol.**
+  Here are a few things to read about that.
+  [http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html](http://www.stephenchu.com/2007/11/seeing-rails-resources-clearly.html)
+  [http://apidock.com/rails/ActionController/Resources/resources](http://apidock.com/rails/ActionController/Resources/resources)
+  [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html)
+  
+  ---------------------
  
   # root
   
