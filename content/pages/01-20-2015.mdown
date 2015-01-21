@@ -1,16 +1,16 @@
 Date: 1 January 2015
 Author: Jen Diamond
 
-# Errors
+## A New Team Looks at Legacy Code
 
-#### David Turner Kaliza Falzone Jen Diamond
+#### David Turner - Kaliza Falzone - Jen Diamond
 
 Tonight we worked at the Starbucks in Santa Monica. We ran the specs for featsofdaring. There was a 
 failing test so we decided to fix it before proceeding with the stories in the Pivotal Tracker.
 
 It was pretty much a wild goose chase which was later solved with a fresh install of Vagrant but in the 
 meantime we had some good discussions based around trying to solve the issues at hand. 
-
+  ---------------------
 The failing test involved the config/routes and the views. So we discussed the routing of our project.
 we explained how ` root 'home#index' ` is working in the `config/routes.rb`
 
