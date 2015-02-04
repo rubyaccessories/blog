@@ -102,7 +102,7 @@ Opens the source directory of the given bundled gem
 
 ----------------------------------------
 
-Environment variables are strings that contain information about the environment for the system, 
+**Environment variables** are strings that contain information about the environment for the system, 
 and the currently logged on user. Some software programs use the information to determine where 
 to place files (such as temporary files).
 
@@ -138,14 +138,14 @@ to launching external application from within ruby programs.
     `config.raise_errors_for_deprecations!`, and it will turn the
     deprecation warnings into errors, giving you the full backtrace.
 
-The first commented out line is the deprecated syntax  
+**The first commented out line is the deprecated syntax**   
 `#page.find('.large-illustration')['src'].should have_content`  
   `'assets/adventure-one-intro.jpg'`
   
-The next commented out line is where we had tried to update it before to no avail  
+**The next commented out line is where we had tried to update it before to no avail**    
   `#expect(page).to have_css('img', text: 'adventure-one-intro.jpg')`
   
-This is the test that actually works:  
+**This is the test that actually works:**  
   `expect(page).to have_css("img[src*='adventure-one-intro.jpg']")`
 
 ---------------------
@@ -167,14 +167,14 @@ This is the test that actually works:
       end  
     end
     
-To test that the test worked I took out the lines in the file  
+**To test that the test worked I took out the lines in the file**  
   `app/views/home/index.html`
 
     <div class="col-xs-6 right outline top-padding">  
       <%= image_tag("adventure-one-intro.jpg", class: "large-illustration") %>  
     </div>
 
-I ran the test and received this error:  
+**I ran the test and received this error:**
 
     Emerald comes to the site Emerald sees the image on the right  
      Failure/Error: expect(page).to have_css("img[src*='adventure-one-intro.jpg']")  
@@ -182,14 +182,15 @@ I ran the test and received this error:
    
 ---------------------
 
-I fixed the last error
-Emerald goes to adv1/obj2 page Emerald enters adventure/1/objective/learn as url
-     Failure/Error: visit 'adventure/1/objective/2/learn'
-     ActionController::RoutingError:
+#### I fixed the last error
+
+    Emerald goes to adv1/obj2 page Emerald enters adventure/1/objective/learn as url  
+     Failure/Error: visit 'adventure/1/objective/2/learn'  
+     ActionController::RoutingError:  
        No route matches [GET] "/adventure/1/objective/2/learn"
 
-We has an error in the path in the file:
-spec/features/emerald_adventure_1_objective_2_spec.rb
+**We had an error in the path in the file:**  
+`spec/features/emerald_adventure_1_objective_2_spec.rb`
 
 We wrote:
 adventure/1/objective/2/learn
@@ -199,14 +200,14 @@ adventures/1/objectives/2/learn
 
 ---------------------
 
-Now we have all pasing tests and we can continue on to the next story.
+### Now we have all pasing tests and we can continue on to the next story.
 
-Pending:
-  ObjectivesController#review (with correct answer to 'challenge') receives input and evaluates Ruby
-    # Temporarily skipped with xit
-    # ./spec/controllers/objectives_controller_spec.rb:5
+    Pending:
+    ObjectivesController#review (with correct answer to 'challenge') receives input and evaluates Ruby
+    `# Temporarily skipped with xit`
+    `# ./spec/controllers/objectives_controller_spec.rb:5`
 
-Finished in 6.31 seconds (files took 2.78 seconds to load)
-18 examples, 0 failures, 1 pending
+    Finished in 6.31 seconds (files took 2.78 seconds to load)
+    18 examples, 0 failures, 1 pending
 
 =================================
