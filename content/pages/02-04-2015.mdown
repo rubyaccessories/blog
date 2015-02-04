@@ -23,8 +23,6 @@ some questions we had a bout yml and tried to help us trouble shoot the launchy 
        No route matches [GET] "/adventure/1/objective/2/learn"  
      `# ./spec/features/emerald_adventure_1_objective_2_spec.rb:5:in `block (2 levels) in <top (required)>'`  
 
-========================================
-
     Emerald visits adventure 1 objective 1 learns about the narrative  
      Failure/Error: save_and_open_page  
      Launchy::CommandNotFoundError:  
@@ -45,7 +43,6 @@ I found this by looking at the launchy gem github issues page to see if other pe
 
 and I found this: [https://github.com/copiousfreetime/launchy/issues/86](https://github.com/copiousfreetime/launchy/issues/86)
 
--------------------------------------------
 #### Interesting things I found on the way...
 
 I managed to find where to change that line in the launchy gem that the person on stackoverflow 
@@ -66,21 +63,15 @@ reoped the terminal and relaunched vagrant but it still did not work.
     $ bundle install  
     $ bundle exec rspec spec
 
----------------------------------------
-
 #### To get to the .bashrc in a Vagrant instance
 
     $ vagrant up  
     $ vagrant ssh  #all the homefiles are there  
     $ ls -a
 
----------------------------------------
-
 #### Cabybara Cheatsheet
 
 [http://www.launchacademy.com/codecabulary/learn-test-driven-development/rspec/capybara-cheat-sheet](http://www.launchacademy.com/codecabulary/learn-test-driven-development/rspec/capybara-cheat-sheet)
-
----------------------------------------
 
 #### An example of yml code that we might learn from
 
@@ -105,16 +96,7 @@ Opens the source directory of the given bundled gem
 **Environment variables** are strings that contain information about the environment for the system, 
 and the currently logged on user. Some software programs use the information to determine where 
 to place files (such as temporary files).
-
 [http://railsapps.github.io/rails-environment-variables.html](http://railsapps.github.io/rails-environment-variables.html)
-
-----------------------------------------
-
-#### THE TEST
-
-`response.status.should_be(200)`
-
-----------------------------------------
 
 [https://rubygems.org/gems/launchy](https://rubygems.org/gems/launchy)  
 **Launchy** is helper class for launching cross-platform applications in a fire and forget manner. 
@@ -122,7 +104,9 @@ There are application concepts (browser, email client, etc) that are common acro
 and they may be launched differently on each platform. Launchy is here to make a common approach 
 to launching external application from within ruby programs.
 
-----------------------------------------
+#### THE TEST
+
+`response.status.should_be(200)` This could be helpful with our expe cted response code for the review section.
 
 #### I updated the deprecated test so we no longer get this warning:
 
@@ -179,8 +163,6 @@ to launching external application from within ruby programs.
     Emerald comes to the site Emerald sees the image on the right  
      Failure/Error: expect(page).to have_css("img[src*='adventure-one-intro.jpg']")  
        expected to find css "img[src*='adventure-one-intro.jpg']" but there were no matches  
-   
----------------------
 
 #### I fixed the last error
 
@@ -198,7 +180,6 @@ adventure/1/objective/2/learn
 When it needed to be:
 adventures/1/objectives/2/learn
 
----------------------
 
 ### Now we have all pasing tests and we can continue on to the next story.
 
