@@ -1,0 +1,186 @@
+We learned a few thing tonight which are very useful
+
+We learned how to start working with the yaml file so we can call it.
+We verified that we know how to call the yml file with a simple program.
+We learned where the .bashrc is in a vagrant file and how to set environment variables.
+We wrote a features test.
+We discovered that launchy's save_and_opn_page method does not work in Vagrant because Vagrant has no browser
+
+  1) Emerald goes to adv1/obj2 page Emerald enters adventure/1/objective/learn as url
+     Failure/Error: visit 'adventure/1/objective/2/learn'
+     ActionController::RoutingError:
+       No route matches [GET] "/adventure/1/objective/2/learn"
+     # ./spec/features/emerald_adventure_1_objective_2_spec.rb:5:in `block (2 levels) in <top (required)>' 
+
+========================================
+Emerald visits adventure 1 objective 1 learns about the narrative
+     Failure/Error: save_and_open_page
+     Launchy::CommandNotFoundError:
+       Unable to find a browser command.
+
+After much searching I figured out the launchy problem. 
+
+We have a line of code in the spec/features/emerald_adventures_1_objectives_1_spec.rb that reads save_and_open_page
+
+This line is a method of launchy. 
+It is a debugger that opens the page in a browswer and runs that test for you to actually view it. Shown here in this RailsCast about 5minutes 30seconds in http://railscasts.com/episodes/257-request-specs-and-capybara
+
+In a virtual box there is no gui browser to be found, therefore it cannot open a browser to show the page.
+
+I found this by looking at the launchy gem github issues page to see if other people had this bug. https://github.com/copiousfreetime/launchy/issues
+
+and I found this: https://github.com/copiousfreetime/launchy/issues/86
+
+-------------------------------------------
+Interesting things I found on the way...
+
+I managed to find where to change that line in the launchy gem that the person on stackoverflow suggested but it did not solve the problem. I even halted vagrant, closed the terminal and reoped the terminal and relaunched vagrant but it still did not work.
+http://stackoverflow.com/questions/16137410/launchyapplicationnotfounderror
+
+$ vagrant up
+$ vagrant ssh
+$ cd /vagrant
+$ cd featsofdaring
+$ cd ~/.rvm/gems/ruby-2.1.4/gems/launchy-2.4.3
+$ vim lib/launchy/applications/browser.rb
+
+$ cd /  #to go back to the vagrant
+$ cd /vagrant
+$ cd featsofdaraing
+$ bundle install
+$ bundle exec rspec spec
+
+---------------------------------------
+
+to get to the .bashrc in a Vagrant instance
+$ vagrant up
+$ vagrant ssh  #all the homefiles are there
+$ ls -a
+
+---------------------------------------
+
+Cabybara Cheatsheet
+http://www.launchacademy.com/codecabulary/learn-test-driven-development/rspec/capybara-cheat-sheet
+
+---------------------------------------
+
+An example of yml code that we might learn from
+
+config.before_configuration do
+  env_file = File.join(Rails.root, 'config', 'local_env.yml')
+  YAML.load(File.open(env_file)).each do |key, value|
+    ENV[key.to_s] = value
+  end if File.exists?(env_file)
+end
+
+The code opens the config/local_env.yml file, reads each key/value pair, and sets environment variables.
+
+The code only runs if the file exists. If the file exists, the code overrides ENV variables set in the Unix shell. If you prefer to set environment variables in the Unix shell, don’t create the config/local_env.yml file.
+
+
+
+$ bundle open <gemname>
+Opens the source directory of the given bundled gem
+
+----------------------------------------
+
+Environment variables are strings that contain information about the environment for the system, and the currently logged on user. Some software programs use the information to determine where to place files (such as temporary files).
+
+http://railsapps.github.io/rails-environment-variables.html
+
+----------------------------------------
+
+THE TEST
+response.status.should_be(200)
+
+----------------------------------------
+
+https://rubygems.org/gems/launchy
+Launchy is helper class for launching cross-platform applications in a fire and forget manner. There are application concepts (browser, email client, etc) that are common across all platforms, and they may be launched differently on each platform. Launchy is here to make a common approach to launching external application from within ruby programs.
+
+----------------------------------------
+
+I updated the deprecated test so we no longer get this warning:
+
+---------------------
+Deprecation Warnings:
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /vagrant/featsofdaring/spec/features/emerald_comes_to_the_site_spec.rb:11:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+---------------------
+
+The first commented out line is the deprecated syntax
+  #page.find('.large-illustration')['src'].should have_content
+    'assets/adventure-one-intro.jpg'
+The next commented out line is where we had tried to update it before to no avail
+  #expect(page).to have_css('img', text: 'adventure-one-intro.jpg')
+This is the test that actually works: 
+  expect(page).to have_css("img[src*='adventure-one-intro.jpg']")
+
+---------------------
+require 'rails_helper'
+
+feature 'Emerald comes to the site' do
+  scenario 'Emerald goes to adventure 1' do
+    visit '/' 
+    click_on 'Start Adventure 1'
+    expect(page).to have_content 'The curious cat'
+  end 
+  scenario 'Emerald sees the image on the right' do
+    visit '/' 
+    #page.find('.large-illustration')['src'].should have_content
+      'assets/adventure-one-intro.jpg'
+    #expect(page).to have_css('img', text: 'adventure-one-intro.jpg')
+    expect(page).to have_css("img[src*='adventure-one-intro.jpg']")
+  end 
+end
+---------------------
+
+To test that the test worked I took out the lines in the file
+  app/views/home/index.html
+
+    <div class="col-xs-6 right outline top-padding">
+      <%= image_tag("adventure-one-intro.jpg", class: "large-illustration") %>
+    </div>
+
+I ran the test and received this error:
+
+   Emerald comes to the site Emerald sees the image on the right
+     Failure/Error: expect(page).to have_css("img[src*='adventure-one-intro.jpg']")
+       expected to find css "img[src*='adventure-one-intro.jpg']" but there were no matches
+   
+---------------------
+
+I fixed the last error
+Emerald goes to adv1/obj2 page Emerald enters adventure/1/objective/learn as url
+     Failure/Error: visit 'adventure/1/objective/2/learn'
+     ActionController::RoutingError:
+       No route matches [GET] "/adventure/1/objective/2/learn"
+
+We has an error in the path in the file:
+spec/features/emerald_adventure_1_objective_2_spec.rb
+
+We wrote:
+adventure/1/objective/2/learn
+
+When it needed to be:
+adventures/1/objectives/2/learn
+
+---------------------
+
+Now we have all pasing tests and we can continue on to the next story.
+
+Pending:
+  ObjectivesController#review (with correct answer to 'challenge') receives input and evaluates Ruby
+    # Temporarily skipped with xit
+    # ./spec/controllers/objectives_controller_spec.rb:5
+
+Finished in 6.31 seconds (files took 2.78 seconds to load)
+18 examples, 0 failures, 1 pending
+
+=================================
