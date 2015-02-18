@@ -25,12 +25,11 @@ the text for the Adventures and Objective. We started pseudo coding it.
 
 + create yaml file with proper headings, 
 + write a helper which defines a method that we can call where the arguement is the file name of the yaml file. 
-
-in the embedded ruby we want to reference a particular hash
-<%= import_adv_obj_text(objective2)
-#define the method import_adv_obj_text. 
-# pass the yaml file to the method as an arguement 
-# store this in an instance variable 
++ in the embedded ruby we want to reference a particular hash
++ <%= import_adv_obj_text(objective2)
++ define the method import_adv_obj_text. 
++ pass the yaml file to the method as an arguement 
++ store this in an instance variable 
 
 #### We need to replace this:
 ----------------------------------------------------
