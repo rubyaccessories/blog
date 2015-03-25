@@ -81,7 +81,11 @@ spec/models/objective_spec.rb
     +      @objective3 = Objective.new('2', '1', 'Objective 1')
 
 
+**Next session we want to make sure that the url reads**
 
+adventure/1/objective/1/review 
+not
+adventure/1/objective/1/repl
 
  
 
