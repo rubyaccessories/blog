@@ -83,8 +83,8 @@ spec/models/objective_spec.rb
 
 **Next session we want to make sure that the url reads**
 
-adventure/1/objective/1/review 
-not
+adventure/1/objective/1/review  
+not  
 adventure/1/objective/1/repl
 
  
