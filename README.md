@@ -34,6 +34,3 @@ This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Li
 
 This project involves understanding the Ruby Standard Library, writing guides explaining it, 
 creating a repl and the Rails site to host it on.
-
-------------------------------------------
-************
