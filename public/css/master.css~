@@ -1,4 +1,4 @@
-/*
+//*
 LEGIBILIS, A THEME FOR THE NESTA BLOG ENGINE.
 LICENCED UNDER THE BSD LICENSE.
 COPYRIGHT © 2011, JAMES ABBOTT
@@ -17,7 +17,9 @@ RAPIDUI IS LICENCED UNDER THE MIT LICENSE.
 body {
     font-family: Georgia, serif;
     font-size: 62.5%;
-    background: #fff;
+    background: #000;
+    background-image:url('/images/paper.jpg');
+    background-repeat:repeat-x repeat-y;
     text-rendering: optimizeLegibility;
 }
 
@@ -41,6 +43,7 @@ a {text-decoration: none;}
 /*70px*/
 .oneCol {width: 6.48148148%;}
 /*160px*/
+.oneplusCol {width: 9%;}
 .twoCol {width: 14.8148148%;}
 /*250px*/
 .threeCol {width: 23.1481481%;}
@@ -72,9 +75,9 @@ a {text-decoration: none;}
 --------------------------------------------- */
 .group:after {
     content: "."; 
-    display: block; 
+    display: block;
     height: 0; 
-    clear: both; 
+    clear: both;
     visibility: hidden;
 }
 
@@ -100,9 +103,9 @@ body>footer {
     padding: 10px 0 30px 0;
     font-size: 1.3em;
     font-family: Georgia;
-    color: #fff;
+    color: #444;
     border-top: 1px solid #E2590E;
-    background: #383837;
+    background: #dbdbdb;
 }
 
 /*links*/
@@ -124,7 +127,7 @@ ul li, ol li {margin-bottom: 12px;}
 section.articles ol li {margin-bottom: 27px;}
 
 h1 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -133,14 +136,16 @@ h1 {
 }
 
 h2 {
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
     margin-bottom: 13px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    color: #900;
 }
 
 /*top branding*/
 h1.branding {
+    color: #333;
     font-family: Palatino Linotype;
     font-size: 70px;
     line-height: 45px;
@@ -161,7 +166,7 @@ h1.branding span {
     font-style: normal;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #C30808;
+    color: #E2590E;
 }
 
 /*article list styling*/
@@ -181,7 +186,7 @@ h1.title span.hand  {
     visibility: hidden;
 }
 
-h1.title span.hand:after {content: '\261F';}
+h1.title span.hand:after {content: '\2606';}
 h1.title:hover span.hand {visibility: visible;}
 
 h1.title a:link {
@@ -262,16 +267,17 @@ body.article article[role=main]>h1+p {position: relative;}
 
 *.dropcap {
     position: absolute;
-    top: -60px;
+    top: -80px;
     left: -35px;
-    color: #733FBC;
-    color: rgba(115,63,188, .3);
+    color: #007399;
+    color: rgba(10, 115, 153, .5);
     text-transform: lowercase;
     font-style: italic;
     font-weight: bold;
     font-family: Palatino Linotype;
     font-size: 120px;
     line-height: normal;
+text-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -321,10 +327,21 @@ section.articles>header>h1 {
 #sidebar p.about {
     font-family: 'Palatino';
     font-size: 20px;
-    line-height: 27px;
-    letter-spacing: 0;
-    font-style: italic;
-    color: #e20e2e;
+    line-height: 23px;
+    letter-spacing: .03em;
+    color: #E2590E;
+    padding-top: 15px;
+}
+
+#sidebar p.team {
+    background-color: #ebebeb;
+    padding: 10px;
+    color: #444;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: .3px;
+    margin-bottom: 20px;
 }
 
 nav.categories ul.menu li {margin: 0;}
@@ -363,7 +380,7 @@ span.readable {
 
 p[role="contentinfo"] {text-align: center;}
 
-img {border: 3px solid #aaa;}
+img {border: 1px solid #aaa;}
 article img {
     padding: 3px;
     margin: 13px 0;
@@ -375,8 +392,10 @@ body.page nav.breadcrumb {margin-bottom: 40px;}
 nav.breadcrumb li {
     display: inline;
     font-family: 'Trebuchet MS';
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: bold;
     letter-spacing: .5px;
+    color: #444;
 }
 nav.breadcrumb li:after {content: '\21AA';}
 nav.breadcrumb li:last-child:after {content: "";}
@@ -394,7 +413,7 @@ nav.breadcrumb li a:visited:hover{
 #media {float: right;}
 #media li {
     float: left;
-    margin: 1px 3px;
+    margin: 5px 3px;
 }
 #media li a img {border: 0;}
 
@@ -424,21 +443,6 @@ code, pre {
 }
 
 pre code {border: 0;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*width < 480*/
 @media screen and (max-width: 480px) {
@@ -546,4 +550,3 @@ pre code {border: 0;}
     section.articles article>header+p,
     body.article article[role=main]>h1+p {text-indent: 15px;}
 }
-

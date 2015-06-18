@@ -1,9 +1,0 @@
-Categories: team-bios
-Summary: Pivotal Labs Los Angeles is a long time friend of Rails Girls. Here in Los Angeles the first Rails girls was held at their offices. They have hosted monthly meetups. They sent many coaches to our 2014 workshop and now they are acting as a coaching company for The Standard Librarians.
-
-# Coaching Company - Pivotal Labs
-[Pivotal](http://pivotallabs.com/) is a long time friend of Rails Girls. Here in Los Angeles the first Rails girls was held at their offices. They have hosted monthly meetups. They sent many coaches to our 2014 workshop and now they are acting as a coaching company for The Standard Librarians.
-
-### Coaches
-
-**Mike McCormick** Mike was instrumental in making this opportunity a reality for our team. At the Rails Girls workshop this year he personally coached a room full of children.
