@@ -1,36 +1,34 @@
-# The Standard Librarians
+## Posting to the Ruby Accessories Blog.
 
-This is a blog for the Rails Girls Summer of Code Volunteer Team The Standard Librarians
+Create a new document inside of the $content/pages directory.
 
-#### The Team consists of 
+It is easiest to run `$ cp <an-old-blog-post-filename.mdown>  <your-new-post-filename.mdown>`
 
-* Jen Diamond
-* Omowale Oniyide
-* Josh Loper
-* Stephanie Betancourt
+Name it with the appropriate date and your name like this:
+wk01-day01-mon-yourname-rubyaccessories.mdown
 
-#### Coaching Company 
+Formatting is crucial for your post to show up on the site.  
+There are 3 elements that you cannot vary from  
 
-  **Pivotal Labs:**  
-  Mike McCormick, John Ryan, Ryan Moran, Eric Hu
-  
-#### Mentor 
+1. the Date 
+2. the author
+3. an h1 tag
 
-  Pat Maddox
 
-#### The blog can be found on Heroku at (http://thestandardlibrarians.herokuapp.com/)
+like this:  
+Date: 23 July 2014  
+Author: your name  
 
-## Goals of The Standard Librarians
+/# Your Heading
 
-#### Learn and become confident with our code.
 
-#### Launch a Rails site so the community can easily try out some of the elements of the Ruby Standard Library.
+The easiest thing to do is to use an old post, rename it and change the info.
 
-* Create of an in-browser REPL for the Ruby 2.1.2 Ruby Standard Library like TryRuby.org.
-* Create an open source learning tool for the community. 
-* Making the Ruby Standard Library more accessable for beginners.
+To run it locally run $mr-sparkle config.ru
 
 #### Use Sinatra to blog about the progress and challenges of the creation. We are using Nesta.
 
 This project involves understanding the Ruby Standard Library, writing guides explaining it, 
 creating a repl and the Rails site to host it on.
+
+To run it from an instance of groundwork's vagrant use [http://33.33.33.33:8080/team-bios](http://33.33.33.33:8080/team-bios)

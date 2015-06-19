@@ -22,8 +22,6 @@ Vim is a highly configurable text editor built to enable efficient text editing.
 
 Vim is often called a "programmer's editor," and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files.
 
-[Vim Adventure](http://vim-adventures.com/) is a fun game that teaches you vim as you play.
-
 [haml]: http://www.cheatography.com/specialbrand/cheat-sheets/haml/
 [markdown]: http://daringfireball.net/projects/markdown/dingus
 [terminal]: http://files.fosswire.com/2007/08/fwunixref.pdf
