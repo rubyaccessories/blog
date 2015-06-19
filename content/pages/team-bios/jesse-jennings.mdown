@@ -1,0 +1,9 @@
+Categories: team-bios:3
+Summary: Josh is a core contributor on The Standard Librarians Project.
+
+# Collaborator - Jesse Jennings
+
+<img style="float: right" src="/attachments/jesse-jennings-sm.jpg" />
+
+Jesse comes from a music and audio engineering background.  He has immersed himself in learning all things programming.  His strength lay in Rails applications.   
+
