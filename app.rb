@@ -76,12 +76,18 @@ EOF
           haml_tag :li do
             haml_tag :a, :id => "#{year}"
             haml_tag :h2, year
-            haml_tag :ol do
-              articles = Page.find_articles.select { |a| a.date.year == year }
-              list_articles(articles)
-            end
+              haml_tag :ol do
+                articles = Page.find_articles.select { |a| a.date.year == year }
+                list_articles(articles)
+              end
           end
         end
+      end
+
+      def article_months
+        articles = Page.find_articles
+        last, first = articles[0].date.month, articles[-1].date.month
+        (first..last).to_a.reverse
       end
 
       def archive_by_month
@@ -89,14 +95,13 @@ EOF
           haml_tag :li do
             haml_tag :a, :id => "#{month_name}"
             haml_tag :h2, month
-            haml_tag :ol do
-              articles = Page.find_articles.select { |a| a.date.month == month }
-              list_articles(articles)
-            end
+              haml_tag :ol do
+                articles = Page.find_articles.select { |a| a.date.month == month }
+                list_articles(articles)
+              end
           end
         end
       end
-
     end
   end
 
