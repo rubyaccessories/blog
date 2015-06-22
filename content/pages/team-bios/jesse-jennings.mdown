@@ -1,5 +1,5 @@
 Categories: team-bios:3
-Summary: Josh is a core contributor on The Standard Librarians Project.
+Summary: Jesse is a non-gmo Ruby programmer.
 
 # Collaborator - Jesse Jennings
 
