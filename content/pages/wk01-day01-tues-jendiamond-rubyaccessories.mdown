@@ -1,8 +1,41 @@
-Date: 16 June 2015  
-Author: Jen Diamond  
+Date: 22 June 2015  
+Author: Jesse Jennings  
 
-# Choices
+# Down the Rabbit Hole We Go
 
-Jesse Jennings and Jen Diamond met up at Starbucks in Atwater to start working on the Odin Project. 
+irb - Interactive Ruby - REPL - Read, Evaluate, Print, Loop
 
-We discovered that although it is a great resource it was not quite what we were looking to do. We decided to recreate a Rails App that Jesse had built.
+DSL - Domain Specific Language (markdown, haml, or rspec) - Similar to
+Pig-Latin, a dsl, needs a base-language to act upon, such as, HTML.  
+Markdown(.md/.mdown) is to HTML as Pig-Latin is to English. 
+
+[Ruby-doc.org](http://ruby-doc.org/)  
+Ruby Standard Library(group of libraries written in Ruby).
+
+We fixed the issue with this blog that would not allow us to see the archive of all the posts. We did a quick fix by posting all the posts for the year but still have to resolve the issue of being able to post by the month. We created a new issue for that so we can work on it later when we have time. 
+
+-----
+
+### Models
+
+**Business Logic** - which data is let out of the Models
+
+A Rails convention is that models should be "fat" and controllers should be "skinny".  
+
+This means that all of the business logic should be stored in the models,  
+and the controllers should simply handle requests from the views and generate 
+responses with data retrieved by the models. The controllers act as middle-men in this capacity.
+
+Try to avoid any "business logic" at all in the view.  
+Views should take *prepared data* and present it -- almost nothing more.
+
+Migrating the Database
+
+`rails g model Comment name:string post:references`
+
+The foreign key **post_id** attribute is automatically created in the
+Comment model when you generate the model with the **post:references** argument.
+
+In the migration table post:references will translate to `t.references :post, index: true` 
+The index on the references line has the database go to index the `post_id` column, so the search is fatser.  
+This is generally a good idea for foreign keys, and happens automatically when you **generate references**.

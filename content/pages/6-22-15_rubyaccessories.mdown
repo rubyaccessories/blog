@@ -1,0 +1,33 @@
+Date: 22 June 2015  
+Author: Jesse Jennings  
+
+# Down the Rabbit Hole We Go
+
+irb - Interactive Ruby - REPL - Read, Evaluate, Print, Loop
+
+DSL - Domain Specific Language (markdown, haml, or rspec) - Similar to
+Pig-Latin, a dsl, needs a base-language to act upon, such as, HTML.  
+Markdown(.md/.mdown) is to HTML as Pig-Latin is to English. 
+
+[Ruby-doc.org](http://ruby-doc.org/) - Ruby Standard Library(group of libraries written in Ruby).
+Models determine which data gets in, and which data is let out. Some people
+refer to this behavior as the "business logic" of an application.
+An important convention in the Rails community is that models should be "fat"
+and controllers should be "skinny". This means that all of the business logic
+should be stored in the models, and the controllers should simply handle
+requests from the views and generate responses with data retrieved by the
+models. The controllers act as middle-men in this capacity.
+
+Views are the skinniest MVC component of all. Generally, you should try to
+avoid any "business logic" at all in the view. Views should take prepared data
+and present it -- almost nothing more.
+
+Migrating the Database
+
+The foreign key naming convention of post_id was enforced when you ran the
+model generator above. The post_id attribute was automatically created in the
+Comment model when you generated the model with the post:references argument.
+
+The index on the references line tells the database to index the post_id
+column, so it can be searched more quickly. This is generally a good idea for
+foreign keys, and happens automatically when you generate references.
