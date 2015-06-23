@@ -5,7 +5,7 @@ Create a new document inside of the $content/pages directory.
 It is easiest to run `$ cp <an-old-blog-post-filename.mdown>  <your-new-post-filename.mdown>`
 
 Name it with the appropriate date and your name like this:  
-wk01-day01-mon-yourname-rubyaccessories.mdown
+6-22-15_rubyaccessories.mdown
 
 #### Formatting is crucial for your post to show up on the site. 
  
